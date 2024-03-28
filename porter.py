@@ -1,6 +1,9 @@
 class Porter:
     # UTILS
     # check if the letter is not a vowel
+    def __init__(self):
+        pass
+
     def consonant(self, letter):
         letter = letter.lower()
         if letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u':
