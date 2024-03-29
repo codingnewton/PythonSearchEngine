@@ -3,12 +3,13 @@
 from nltk.tokenize import word_tokenize
 import nltk
 from nltk.corpus import stopwords
-from Porter import Porter  # Assuming Porter.py is a custom class for stemming
+from nltk.stem import PorterStemmer
+# from Porter import Porter  # Assuming Porter.py is a custom class for stemming
 nltk.download('punkt')  # Download required NLTK resources
 nltk.download('stopwords')
 
 # Create an instance of the Porter class for stemming
-stemmer = Porter()
+stemmer = PorterStemmer()
 
 # Open and read the file
 file = open('file.txt', encoding='utf8')
@@ -25,7 +26,7 @@ print("Number of lines in the file is: ", line)
 # Create a list to store each line in the file as an element of the list
 array = []
 for i in range(line):
-    array.append(file.readline())
+    array.append(file.readline())  
 
 # Tokenization function
 def tokenize_words(file_contents):
@@ -33,7 +34,7 @@ def tokenize_words(file_contents):
 
     for i in range(len(file_contents)):
         tokenized = file_contents[i].split()  # Tokenize each line
-        stemmed_tokens = [stemmer.getStem(token) for token in tokenized]  # Apply stemming to each token
+        stemmed_tokens = [stemmer.stem(token) for token in tokenized]  # Apply stemming to each token
         result.append(stemmed_tokens)
 
     return result
@@ -43,7 +44,7 @@ tokenized_contents = []
 for i in range(line):
     check = array[i].lower()
     tokenized_line = tokenize_words([check])[0]
-    stemmed_tokens = [stemmer.getStem(token) for token in tokenized_line]
+    stemmed_tokens = [stemmer.stem(token) for token in tokenized_line]
     tokenized_contents.append(stemmed_tokens)
 
 punc = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
