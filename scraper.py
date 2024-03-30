@@ -6,6 +6,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 import io
 import sqlite3
+import json
 nltk.download('punkt')
 
 class HTMLobj:
@@ -186,8 +187,129 @@ class HTML_list:
         print(f"Web crawling finished, {len(self.HTML_list)} results found.")
 
 
+    def createdb(self):
+        connection = sqlite3.connect('indexer.db')
+        cursor = connection.cursor()
+        
+        # Drop table if exist
+        cursor.execute('DROP TABLE IF EXISTS pages')
+        cursor.execute('DROP TABLE IF EXISTS forward_index')
+        cursor.execute('DROP TABLE IF EXISTS inverted_index')
+        cursor.execute('DROP TABLE IF EXISTS urls')
+        cursor.execute('DROP TABLE IF EXISTS words')
+
+
+        # self.title = ""
+        # self.body = ""
+        # self.url = ""
+        # self.last_mod_date = ""
+        # self.file_size = 0
+        # self.kw_freq = [] # This should be an array or set of tuples
+        # self.child_link = []
+        # self.parent_link = []
+        # self.link_queue = []
+        # self.stemmed = []
+        # self.keyword_counts = {} # wordfreq() has to be executed to store this
+        # self.page_title_kword = {}
+
+        # # 1st table: pages(page_id, url, content)
+        # cursor.execute("""CREATE TABLE pages (
+        #                page_id INTEGER PRIMARY KEY,
+        #                url TEXT,
+        #                content TEXT
+        # )""")
+
+        # 1st table: forward_index(page_id, word_freq)
+        cursor.execute("""CREATE TABLE forward_index(
+                       page_id INTEGER,
+                       word_freq TEXT
+        )""")
+
+        # 2nd table: inverted_index(page_id, page_freq) WRONG ATTRIBUTE ASSIGNMENT, PLEASE AMMEND
+        cursor.execute("""CREATE TABLE inverted_index(
+                       word_id INTEGER,
+                       page_freq TEXT
+        )""")
+
+        # 1st mapping table: urls(url, page_id)
+        cursor.execute("""CREATE TABLE urls(
+                       url TEXT PRIMARY KEY,
+                       page_id INTEGER
+        )""")
+
+        # 2nd mapping table: words(word, word_id)
+        cursor.execute("""CREATE TABLE words(
+                       word TEXT PRIMARY KEY,
+                       word_id INTEGER
+        )""")
+
+    def dbforward(self):
+        """ Insert to a db file by data crawled in the class (HTML_list)
+        """
+        connection = sqlite3.connect('indexer.db')
+        c1 = connection.cursor()
+        c2 = connection.cursor()
+
+        for page in self.HTML_list:
+            # Check if URL already exists
+            c1.execute("SELECT page_id FROM urls WHERE url=?", (page.url,))
+            if not(c1.fetchone()):
+                # url does not exists, assign a new page_id
+                c2.execute("SELECT COUNT(*) FROM urls")
+                new_page_id = c2.fetchone()[0] + 1
+                c1.execute("INSERT INTO urls VALUES (?,?)",(page.url, new_page_id))
+                c2.execute("INSERT INTO forward_index VALUES (?,?)", (new_page_id, json.dumps(page.keyword_counts)))
+        connection.commit()
+        connection.close()
+        
+    def dbinverted(self):
+        """Calculate the inverted index and put it into database. dbforward() must be runned before dbinverted()
+        """
+        connection = sqlite3.connect('indexer.db')
+        c1 = connection.cursor()
+        c1.execute("SELECT * FROM forward_index")
+        results = c1.fetchall()
+        Word_Freq = {}
+        Word_Id = {}
+        for page in results:
+            page_id = page[0]
+            word_freq = json.loads(page[1])
+            for word, freq in word_freq.items():
+                if word in Word_Id.keys():
+                    word_id = Word_Id[word]                     # Getting word id of a word
+                    Word_Freq[word_id][page_id] = freq          # Create a new item for dictionary (page_freq) to store the word frequency of a new page
+                else:
+                    pages_freq = {}                             # Create a dictionary to store the word frequency of pages (page_freq)
+                    Word_Id[word] = len(Word_Id) + 1            # Create a new item for table words 
+                    pages_freq[page_id] = freq                  # Create a new item for dictionary (page_freq) to store the word frequency of a page
+                    Word_Freq[Word_Id[word]] = pages_freq  
+     
+        # Inserting the dictionaries into tables
+        for word, word_id in Word_Id.items():
+            c1.execute("INSERT INTO words VALUES (?,?)", (word, word_id))
+        for word_id, page_freq in Word_Freq.items():
+            c1.execute("INSERT INTO inverted_index VALUES (?,?)", (word_id, json.dumps(page_freq)))
+        connection.commit()
+        connection.close()
+
+    def dbtest(self):
+        connection = sqlite3.connect('indexer.db')
+        c1 = connection.cursor()
+        c1.execute("SELECT * FROM inverted_index")
+        words = c1.fetchall()
+        for word in words:
+            print(word)
+
+
 # Testing the crawler
 A = HTML_list()
 A.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)
+
+# Testing db file creation
+A.createdb()
+A.dbforward()       # Forward indexing
+A.dbinverted()      # Creating Inverted Index. dbforward() must be runned before this.
+A.dbtest()          # Retrieve contents of db file.
+
 A.export('return')
 # A.test()
