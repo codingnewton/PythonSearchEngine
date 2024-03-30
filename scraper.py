@@ -101,8 +101,8 @@ class HTMLobj:
         print(f"URL: {self.url}")
         print(f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}B")
         print(f"Keyword frequency: {self.returnwordfreq(10)}")
-        print(f"Child Links: {self.child_link}")
-        print(f"Parent Links: {self.parent_link}")
+        print(f"Child Links: {self.child_link[:10]}")
+        print(f"Parent Links: {self.parent_link[:10]}")
         print("-------------------------------------------------------------------")
     
 
