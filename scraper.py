@@ -108,7 +108,6 @@ class HTMLobj:
 
 class HTML_list:
     crawled_list = set()
-    MAX = 30
 
     def __init__(self):
        self.HTML_list = [] # list of HTMLobj for later sorting
