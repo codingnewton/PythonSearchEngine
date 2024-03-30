@@ -1,13 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-import nltk
+# import nltk
 from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
+# from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import io
 import sqlite3
-nltk.download('stopwords')
+# nltk.download('stopwords')
 
 class HTMLobj:
     crawled_url = set()
@@ -63,12 +63,12 @@ class HTMLobj:
         stemmer = PorterStemmer()
         words = word_tokenize(text)                                     # Tokenizing
         punct = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
-        # stopwords = open(stopwords.txt).read().splitlines()
+        stopwords = open('stopwords.txt').read().splitlines()
         for word in words:
             if word in punct:
                 words.remove(word)
                 continue
-            elif word in stopwords.words():                                     # Stopword Removal
+            elif word in stopwords:                                     # Stopword Removal
                 words.remove(word)
                 continue
         stemmed = [stemmer.stem(word) for word in words]
@@ -163,7 +163,7 @@ class HTML_list:
             self.crawled_list.add(url)
             self.HTML_list.append(Info)
             for link in Info.link_queue:
-                self.crawl(link)
+                self.crawl(link, n)
     
     # sort the HTML list by index
     def HTMLlist_sort(self):

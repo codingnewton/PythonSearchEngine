@@ -1,7 +1,7 @@
 Page Title: Test page
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm
 Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 603Bytes
-Keyword frequency: thi 1; the 2; test 1; page 1; a 1; crawler 1; befor 1; admiss 1; cse 1; depart 1
+Keyword frequency: thi 1; test 1; page 1; a 1; crawler 1; befor 1; get 1; the 1; admiss 1; cse 1
 Child Links: []
 Parent Links: []
 -------------------------------------------------------------------
@@ -22,7 +22,7 @@ Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse.htm']
 Page Title: UG
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse/UG.htm
 Last modification date: Tue, 16 May 2023 05:03:46 GMT | Size of Page: 4070Bytes
-Keyword frequency: program 16; inform 4; the 14; depart 5; comput 13; scienc 7; hkust 5; offer 3; degre 2; student 7
+Keyword frequency: program 16; inform 4; the 13; depart 5; comput 13; scienc 7; hkust 5; offer 3; degre 2; student 7
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse.htm']
 -------------------------------------------------------------------
@@ -43,7 +43,7 @@ Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/news.htm']
 Page Title: BBC news1
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc1.htm
 Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 1649Bytes
-Keyword frequency: fifth 1; nest 6; rare 2; bird 4; project 3; a 2; introduc 1; prey 1; back 1; sky 1
+Keyword frequency: fifth 2; nest 6; rare 2; bird 4; project 3; a 2; introduc 1; prey 1; sky 1; north-east 1
 Child Links: []
 Parent Links: []
 -------------------------------------------------------------------
@@ -64,21 +64,21 @@ Parent Links: []
 Page Title: CNN news
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn.htm
 Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 448Bytes
-Keyword frequency: cnn 1; news 1; sauerkraut 1; capit 1; sweet 1; accordion 1; warm 1; 'may 1; econom 1; chaos' 1
+Keyword frequency: cnn 1; news 1; sauerkraut 1; capit 1; sweet 1; accordion 1; warm 1; 'may 1; caus 1; econom 1
 Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn1.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn2.htm']
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/news.htm']
 -------------------------------------------------------------------
 Page Title: CNN news1
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn1.htm
 Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 4427Bytes
-Keyword frequency: sauerkraut 4; capit 2; sweet 1; accordion 13; wishek 7; north 2; dakota 2; ap 1; -- 1; a 13
+Keyword frequency: sauerkraut 4; capit 2; sweet 1; accordion 13; wishek 7; north 2; dakota 2; ap 1; -- 1; a 12
 Child Links: []
 Parent Links: []
 -------------------------------------------------------------------
 Page Title: CNN news2
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn2.htm
 Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 6009Bytes
-Keyword frequency: warm 4; 'may 1; econom 4; chaos' 1; london 2; england 1; -- 3; climat 12; chang 12; devast 1
+Keyword frequency: warm 4; 'may 1; caus 1; econom 4; chaos' 1; london 2; england 1; -- 3; climat 12; chang 12
 Child Links: []
 Parent Links: []
 -------------------------------------------------------------------
@@ -106,7 +106,7 @@ Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm']
 Page Title: book3
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/books/book3.htm
 Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 1994Bytes
-Keyword frequency: a 6; note 1; pseudo-mathemat 1; relev 6; recent 1; number 1; articl 1; book 2; report 2; deal 1
+Keyword frequency: a 7; note 1; pseudo-mathemat 1; relev 6; recent 1; number 1; articl 1; book 2; report 2; deal 1
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm']
 -------------------------------------------------------------------
@@ -176,7 +176,7 @@ Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 Page Title: Class of Nuke 'Em High 2 (1991)
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/9.html
 Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 7075Bytes
-Keyword frequency: class 7; nuke 8; 'em 8; high 8; part 6; ii 4; subhumanoid 6; meltdown 5; 1991 4; now 2
+Keyword frequency: class 7; nuke 8; 'em 8; high 7; part 6; ii 4; subhumanoid 6; meltdown 5; 1991 4; now 2
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
