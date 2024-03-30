@@ -6,8 +6,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import io
+import sqlite3
 nltk.download('stopwords')
-#nltk.download('punkt')
 
 class HTMLobj:
     crawled_url = set()
@@ -63,11 +63,12 @@ class HTMLobj:
         stemmer = PorterStemmer()
         words = word_tokenize(text)                                     # Tokenizing
         punct = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
+        # stopwords = open(stopwords.txt).read().splitlines()
         for word in words:
             if word in punct:
                 words.remove(word)
                 continue
-            elif word in stopwords.words():                             # Stopword Removal
+            elif word in stopwords.words():                                     # Stopword Removal
                 words.remove(word)
                 continue
         stemmed = [stemmer.stem(word) for word in words]
@@ -102,19 +103,37 @@ class HTMLobj:
         self.keyword_counts = dict(sorted_keyword_counts)
         pass
 
-    def display(self):
-        print(f"Page Title: {self.title}")
-        print(f"URL: {self.url}")
-        print(f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}Bytes")
-        print(f"Keyword frequency: {self.returnwordfreq(10)}")
-        print(f"Child Links: {self.child_link[:10]}")
-        print(f"Parent Links: {self.parent_link}")
-        print("-------------------------------------------------------------------")
+    def display(self, mode):
+        """ Output crawl result by printing or returning
+
+        Args:
+            mode (String): "print"/"return". Print will print the function 
+
+        Returns:
+            String: return crawl result if the mode is "return"
+        """
+        if mode == 'print':
+            print(f"Page Title: {self.title}")
+            print(f"URL: {self.url}")
+            print(f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}Bytes")
+            print(f"Keyword frequency: {self.returnwordfreq(10)}")
+            print(f"Child Links: {self.child_link[:10]}")
+            print(f"Parent Links: {self.parent_link}")
+            print("-------------------------------------------------------------------")
+            pass
+        elif mode == 'return':
+            pagetitle = f"Page Title: {self.title}\n" 
+            url = f"URL: {self.url}\n"
+            modidate = f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}Bytes\n"
+            keyfreq = f"Keyword frequency: {self.returnwordfreq(10)}\n"
+            childlink = f"Child Links: {self.child_link[:10]}\n"
+            parentlink = f"Parent Links: {self.parent_link}\n"
+            hypens = "-------------------------------------------------------------------\n"
+            return pagetitle + url + modidate + keyfreq + childlink + parentlink + hypens
     
 
 class HTML_list:
     crawled_list = set()
-    MAX = 30
 
     def __init__(self):
        self.HTML_list = [] # list of HTMLobj for later sorting
@@ -126,8 +145,14 @@ class HTML_list:
             print("Error: Invalid argument")
             return 0
     
-    def crawl(self, url):
-        if len(self.crawled_list) == 30:
+    def crawl(self, url, n):
+        """Recursively crawl the pages
+
+        Args:
+            url (string): starting url
+            n (int): max. number of pages to be crawled
+        """
+        if len(self.crawled_list) == n:
             return
         if url in self.crawled_list:
             pass
@@ -141,24 +166,29 @@ class HTML_list:
                 self.crawl(link)
     
     # sort the HTML list by index
-    def export(self):
+    def HTMLlist_sort(self):
+        pass            
+    
+    # Export search results as "spider-result.txt"
+    def export(self, mode):
+        """ Export by print or by storing into "spider-result.txt"
+
+        Args:
+            mode (_string_): _"print"/"return": print is print, return is .txt file_
+        """
         with open("spider-result.txt", "w") as f:
             for page in self.HTML_list:
-                print(f"")
+                f.write(page.display('return'))
     
     # output the search result with HTMLobj's display function, will be modified to output to a text file
     def test(self):
         for page in self.HTML_list:
-            page.display()
+            page.display('print')
         print(f"Web crawling finished, {len(self.HTML_list)} results found.")
-
-    
-
-
-
 
 
 # Testing the crawler
 A = HTML_list()
-A.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm")
-A.test()
+A.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)
+A.export('return')
+# A.test()
