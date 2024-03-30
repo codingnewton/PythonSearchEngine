@@ -298,7 +298,10 @@ class HTML_list:
         c1.execute("SELECT * FROM inverted_index")
         words = c1.fetchall()
         for word in words:
-            print(word)
+            print(word[1])
+            print(type(word[1]))
+            print(json.loads(word[1]))
+            print(type(json.loads(word[1])))
 
 
 # Testing the crawler
@@ -313,3 +316,9 @@ A.dbtest()          # Retrieve contents of db file.
 
 A.export('return')
 # A.test()
+
+
+# When you would like to store a dictionary to a db table
+# You have to make it a string first by json.dumps(_dict_)
+# When you would like to get a dictionary from a db table
+# You have to make it a dictionary first by json.loads(_string_)
