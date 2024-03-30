@@ -1,4 +1,3 @@
-# This is a scraper method that scrape most neccessary information from each html
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -8,7 +7,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import io
 nltk.download('stopwords')
-
+#nltk.download('punkt')
 
 class HTMLobj:
     crawled_url = set()
@@ -24,6 +23,7 @@ class HTMLobj:
         self.link_queue = []
         self.stemmed = []
         self.keyword_counts = {} # wordfreq() has to be executed to store this
+        self.page_title_kword = {}
 
     def __init__(self, url): # The scraping process
         response = requests.get(url)
@@ -33,6 +33,7 @@ class HTMLobj:
         self.parent_link = []
         self.stemmed = []
         self.keyword_counts = {}
+        self.page_title_kword = {}
         
         # Extract title, url, last mod date and file size
         self.title = soup.find('title').text
@@ -50,14 +51,16 @@ class HTMLobj:
 
         for link in full_links:
             if link.startswith(url_cleaned):
-                self.child_link.append(link)
+                if len(self.child_link) <=10:
+                    self.child_link.append(link)
+                else:
+                    pass
             if response.url.startswith(link.split(".htm")[0].strip()):
                 self.parent_link.append(link)
 
 
-    def stopstem(self, url):
+    def stopstem(self, url, text): # stemming and stopword removal
         stemmer = PorterStemmer()
-        text = self.body
         words = word_tokenize(text)                                     # Tokenizing
         punct = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
         for word in words:
@@ -72,12 +75,15 @@ class HTMLobj:
         return stemmed
     
 
-    def wordfreq(self, stemmed):
+    def wordfreq(self, stemmed, mode):
         keyword_counts = {}
         # Increment count for this keyword
         for word in stemmed:
             keyword_counts[word] = keyword_counts.get(word, 0) + 1
-        self.keyword_counts = keyword_counts
+        if mode == 'b':
+            self.keyword_counts = keyword_counts
+        if mode == 't':
+            self.page_title_kword = keyword_counts
         return keyword_counts
 
     def returnwordfreq(self, n):
@@ -99,15 +105,16 @@ class HTMLobj:
     def display(self):
         print(f"Page Title: {self.title}")
         print(f"URL: {self.url}")
-        print(f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}B")
+        print(f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}Bytes")
         print(f"Keyword frequency: {self.returnwordfreq(10)}")
         print(f"Child Links: {self.child_link[:10]}")
-        print(f"Parent Links: {self.parent_link[:10]}")
+        print(f"Parent Links: {self.parent_link}")
         print("-------------------------------------------------------------------")
     
 
 class HTML_list:
     crawled_list = set()
+    MAX = 30
 
     def __init__(self):
        self.HTML_list = [] # list of HTMLobj for later sorting
@@ -119,31 +126,28 @@ class HTML_list:
             print("Error: Invalid argument")
             return 0
     
-    def crawl(self, url, pages):
-        """ Recursively Crawl all the information of a webpage
-
-        Args:
-            url (string): the starting url
-            pages (int): number of pages to be crawl
-        """
-        if len(self.crawled_list) == pages:
+    def crawl(self, url):
+        if len(self.crawled_list) == 30:
             return
         if url in self.crawled_list:
             pass
         else:
             Info = HTMLobj(url)
-            Info.wordfreq(Info.stopstem(url))
+            Info.wordfreq(Info.stopstem(url, Info.title), 't')
+            Info.wordfreq(Info.stopstem(url, Info.body), 'b')
             self.crawled_list.add(url)
             self.HTML_list.append(Info)
             for link in Info.link_queue:
-                self.crawl(link, pages)
+                self.crawl(link)
     
     # sort the HTML list by index
-    def sort_by_index():
-        print("Placeholder: Sort by index")
+    def export(self):
+        with open("spider-result.txt", "w") as f:
+            for page in self.HTML_list:
+                print(f"")
     
     # output the search result with HTMLobj's display function, will be modified to output to a text file
-    def export(self):
+    def test(self):
         for page in self.HTML_list:
             page.display()
         print(f"Web crawling finished, {len(self.HTML_list)} results found.")
@@ -156,5 +160,5 @@ class HTML_list:
 
 # Testing the crawler
 A = HTML_list()
-A.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)
-A.export()
+A.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm")
+A.test()
