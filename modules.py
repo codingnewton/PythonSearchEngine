@@ -1,9 +1,10 @@
 """
 Copy the text to the terminal
 
-pip install numpy
+python.exe -m pip install --upgrade pip
+pip install requests
+pip install bs4
 pip install nltk
 pip install lxml
-pip install scrapy
 
 """
