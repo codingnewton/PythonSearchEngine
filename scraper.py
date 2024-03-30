@@ -120,8 +120,14 @@ class HTML_list:
             print("Error: Invalid argument")
             return 0
     
-    def crawl(self, url):
-        if len(self.crawled_list) == 30:
+    def crawl(self, url, pages):
+        """ Recursively Crawl all the information of a webpage
+
+        Args:
+            url (string): the starting url
+            pages (int): number of pages to be crawl
+        """
+        if len(self.crawled_list) == pages:
             return
         if url in self.crawled_list:
             pass
@@ -131,7 +137,7 @@ class HTML_list:
             self.crawled_list.add(url)
             self.HTML_list.append(Info)
             for link in Info.link_queue:
-                self.crawl(link)
+                self.crawl(link, pages)
     
     # sort the HTML list by index
     def sort_by_index():
@@ -151,5 +157,5 @@ class HTML_list:
 
 # Testing the crawler
 A = HTML_list()
-A.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm")
+A.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)
 A.export()
