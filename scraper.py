@@ -3,12 +3,10 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import nltk
 from nltk.tokenize import word_tokenize
-# from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import io
 import sqlite3
 nltk.download('punkt')
-# nltk.download('stopwords')
 
 class HTMLobj:
     crawled_url = set()
