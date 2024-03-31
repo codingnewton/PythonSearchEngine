@@ -1,4 +1,4 @@
-PythonSearchEngine - Python Base Search Engine
+PythonSearchEngine -  Basic Python Search Engine
 This program is developed by Group 15 of COMP4321 for completing the project.
 
 To install necessary library, pip version 24.0 is required. 
