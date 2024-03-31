@@ -8,8 +8,9 @@ import io
 import sqlite3
 import json
 nltk.download('punkt')
+import copy
 
-class HTMLobj:
+class page:
     crawled_url = set()
     def __init__(self):
         self.title = ""
@@ -24,6 +25,7 @@ class HTMLobj:
         self.stemmed = []
         self.keyword_counts = {} # wordfreq() has to be executed to store this
         self.page_title_kword = {}
+    
 
     def __init__(self, url): # The scraping process
         response = requests.get(url)
@@ -102,6 +104,9 @@ class HTMLobj:
         sorted_keyword_counts = sorted(keyword_counts.items, key = lambda x:x[1], reverse = True)
         self.keyword_counts = dict(sorted_keyword_counts)
         pass
+    
+    def deep_copy(self):
+        return copy.deepcopy(self)
 
     def display(self, mode):
         """ Output crawl result by printing or returning
@@ -136,7 +141,7 @@ class HTML_list:
     crawled_list = set()
 
     def __init__(self):
-       self.HTML_list = [] # list of HTMLobj for later sorting
+       self.HTML_list = [] # list of page for later sorting
 
     def get_object_at(self, idx):
         try: 
@@ -154,17 +159,48 @@ class HTML_list:
         """
         if len(self.crawled_list) == n:
             return
+        Info = page(url)
         if url in self.crawled_list:
-            pass
+            #If the page is updated, then replace the old with new
+            modDate = requests.get(url).headers.get('last-modified')
+            if modDate > self.get_by_url(url).last_mod_date:
+                Info.wordfreq(Info.stopstem(url, Info.title), 't')
+                Info.wordfreq(Info.stopstem(url, Info.body), 'b')
+                idx = self.get_idx_by_url(url)
+                self.HTML_list[idx] = Info.deep_copy()
+                for link in Info.link_queue:
+                    self.crawl(link, n)
+            else:
+                pass
         else:
-            Info = HTMLobj(url)
             Info.wordfreq(Info.stopstem(url, Info.title), 't')
             Info.wordfreq(Info.stopstem(url, Info.body), 'b')
             self.crawled_list.add(url)
             self.HTML_list.append(Info)
             for link in Info.link_queue:
                 self.crawl(link, n)
+
+    def get_by_url(self, url): # retrieve from html list by url
+        try:
+            for html in self.HTML_list:
+                if html.url == url:
+                    return html
+        except:
+            print("Error, not an actual URL")
+            return page()
     
+    def get_idx_by_url(self, url):
+        idx = 0
+        try:
+            for html in self.HTML_list:
+                if html.url == url:
+                    return idx
+                else:
+                    idx = idx+1
+        except:
+            return -1
+
+
     # sort the HTML list by index
     def HTMLlist_sort(self):
         pass            
@@ -180,7 +216,7 @@ class HTML_list:
             for page in self.HTML_list:
                 f.write(page.display('return'))
     
-    # output the search result with HTMLobj's display function, will be modified to output to a text file
+    # output the search result with page's display function, will be modified to output to a text file
     def test(self):
         for page in self.HTML_list:
             page.display('print')
@@ -299,9 +335,9 @@ class HTML_list:
         words = c1.fetchall()
         for word in words:
             print(word[1])
-            print(type(word[1]))
-            print(json.loads(word[1]))
-            print(type(json.loads(word[1])))
+            #print(type(word[1]))
+            #print(json.loads(word[1]))
+            #print(type(json.loads(word[1])))
 
 
 # Testing the crawler
