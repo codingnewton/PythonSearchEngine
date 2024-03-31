@@ -98,7 +98,7 @@ This document describes the design of the SQLite3 database schema for the indexe
 
 1. Save all the files in the same directory.
 2. Run the `test_program.py` file.
-3. The search results will be saved in the `spider-result.txt` file.
+3. The search results will be saved in the `spider_result.txt` file.
 
 ## Execution
 
