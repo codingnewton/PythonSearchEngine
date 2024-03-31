@@ -214,7 +214,7 @@ class HTML_list:
         Args:
             mode (_string_): _"print"/"return": print is print, return is .txt file_
         """
-        with open("spider-result.txt", "w") as f:
+        with open("spider_result.txt", "w") as f:
             for page in self.HTML_list:
                 f.write(page.display('return'))
         if mode == 'print':
