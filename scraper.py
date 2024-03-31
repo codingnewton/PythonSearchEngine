@@ -350,16 +350,15 @@ class HTML_list:
             print(word)
 
 
-# Testing the crawler
-A = HTML_list()
-A.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)
+def testprogram():
+    spider = HTML_list()
+    spider.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)      # recursively crawl the pages
 
-# Testing db file creation
-db_filename = 'indexer.db'
-A.createdb(db_filename)
-A.dbforward(db_filename)       # Forward indexing
-A.dbinverted(db_filename)      # Creating Inverted Index. dbforward() must be runned before this.
-# A.dbtest(db_filename, 'content')          # Retrieve contents of db file.
+    db_filename = 'indexer.db'          # Specify the name of the db file you have/ you will create
+    spider.createdb(db_filename)        # Create the .db file for storing pages newly fetched pages OR Clean an existing .db file to store newly fetched pages.
+    spider.dbforward(db_filename)       # Inserting data into table {urls, forward_index, content}
+    spider.dbinverted(db_filename)      # Calculate inverted index and insert data into table {words, inverted_index}
 
-A.export('return')
-# A.test()
+    # spider.dbtest(db_filename, tablename = 'words')   # Retrieve and print contents of table "words" from db file
+
+    spider.export('return')             # Create spider-result.txt by mode = 'return' (mode='print' will print the results instead)
