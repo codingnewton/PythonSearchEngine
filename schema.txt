@@ -107,7 +107,7 @@ Executing the Program
 
 2. Run the test_program.py file.
 
-3. The search results will be saved in the spider-result.txt file.
+3. The search results will be saved in the spider_result.txt file.
 
 Execution
 ===============================================================================
