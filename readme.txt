@@ -26,6 +26,8 @@ pip install urllib
 pip install bs4
 
 Copy the code above and run it on local IDE should resolve the issue
+
+OR go to modules.py and run the code listed there
 ======================================================================================
 Running the program
 
