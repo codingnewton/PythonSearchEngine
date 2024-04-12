@@ -7,6 +7,8 @@ from nltk.stem import PorterStemmer
 import io
 import sqlite3
 import json
+import datetime
+import dateutil.parser
 nltk.download('punkt')
 import copy
 
@@ -60,7 +62,7 @@ class page:
             if response.url.startswith(link.split(".htm")[0].strip()):
                 self.parent_link.append(link)
 
-    def __repr__(self) -> str:
+    def __str__(self) -> str:
         pagetitle = f"Page Title: {self.title}\n" 
         url = f"URL: {self.url}\n"
         modidate = f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}Bytes\n"
@@ -70,6 +72,9 @@ class page:
         hypens = "-------------------------------------------------------------------\n"
         return pagetitle + url + modidate + keyfreq + childlink + parentlink + hypens
 
+    #def __lt__(self, other):
+
+    
     def stopstem(self, url, text): # stemming and stopword removal
         stemmer = PorterStemmer()
         words = word_tokenize(text)                                     # Tokenizing
@@ -194,48 +199,31 @@ class HTML_list:
         Args:
             mode (_string_): _"print"/"return": print is print, return is .txt file_
         """
-        with open("spider-result.txt", "w") as f:
+        with open("spider_result.txt", "w") as f:
             for page in self.HTML_list:
-                f.write(page.__repr__())
+                f.write(page)
     
     # output the search result with page's display function, will be modified to output to a text file
     def test(self):
         for page in self.HTML_list:
-            page.display('print')
+            print(page)
         print(f"Web crawling finished, {len(self.HTML_list)} results found.")
 
 
-    def createdb(self):
-        connection = sqlite3.connect('indexer.db')
+    def createdb(self, filename):
+        """ Create the .db file for storing pages newly fetched pages OR Clean an existing .db file to store newly fetched pages.
+            2 mapping tables and 2 indexing tables will be created. 
+            filename (string): filename/filepath of the .db file. It will create one if the file did not exist.
+        """
+        connection = sqlite3.connect(filename)
         cursor = connection.cursor()
         
         # Drop table if exist
-        cursor.execute('DROP TABLE IF EXISTS pages')
         cursor.execute('DROP TABLE IF EXISTS forward_index')
         cursor.execute('DROP TABLE IF EXISTS inverted_index')
+        cursor.execute('DROP TABLE IF EXISTS content')
         cursor.execute('DROP TABLE IF EXISTS urls')
         cursor.execute('DROP TABLE IF EXISTS words')
-
-
-        # self.title = ""
-        # self.body = ""
-        # self.url = ""
-        # self.last_mod_date = ""
-        # self.file_size = 0
-        # self.kw_freq = [] # This should be an array or set of tuples
-        # self.child_link = []
-        # self.parent_link = []
-        # self.link_queue = []
-        # self.stemmed = []
-        # self.keyword_counts = {} # wordfreq() has to be executed to store this
-        # self.page_title_kword = {}
-
-        # # 1st table: pages(page_id, url, content)
-        # cursor.execute("""CREATE TABLE pages (
-        #                page_id INTEGER PRIMARY KEY,
-        #                url TEXT,
-        #                content TEXT
-        # )""")
 
         # 1st table: forward_index(page_id, word_freq)
         cursor.execute("""CREATE TABLE forward_index(
@@ -243,13 +231,24 @@ class HTML_list:
                        word_freq TEXT
         )""")
 
-        # 2nd table: inverted_index(page_id, page_freq) WRONG ATTRIBUTE ASSIGNMENT, PLEASE AMMEND
+        # 2nd table: inverted_index(page_id, page_freq)
         cursor.execute("""CREATE TABLE inverted_index(
                        word_id INTEGER,
                        page_freq TEXT
         )""")
 
-        # 1st mapping table: urls(url, page_id)
+        # 3rd table: content(page_id, url, pagetitle, last_mod_date, file_size, child_link, parent_link)
+        cursor.execute("""CREATE TABLE content(
+                       page_id INTEGER,
+                       url TEXT,
+                       pagetitle TEXT,
+                       last_mod_date DATETIME,
+                       file_size INTEGER,
+                       child_link TEXT,
+                       parent_link TEXT
+        )""")
+
+        # 1st mapping table: urls(url, page_id, last_mod_date)
         cursor.execute("""CREATE TABLE urls(
                        url TEXT PRIMARY KEY,
                        page_id INTEGER
@@ -261,29 +260,37 @@ class HTML_list:
                        word_id INTEGER
         )""")
 
-    def dbforward(self):
+    def dbforward(self, filename):
         """ Insert to a db file by data crawled in the class (HTML_list)
         """
-        connection = sqlite3.connect('indexer.db')
+        connection = sqlite3.connect(filename)
         c1 = connection.cursor()
         c2 = connection.cursor()
-
         for page in self.HTML_list:
             # Check if URL already exists
             c1.execute("SELECT page_id FROM urls WHERE url=?", (page.url,))
-            if not(c1.fetchone()):
+            if c1.fetchone():
+                c2.execute("SELECT last_mod_date FROM content WHERE page_id=?", (page.url))
+                new_last_mod_date = page.last_mod_date
+                old_last_mod_date = c2.fetchone()[0]
+                if new_last_mod_date > old_last_mod_date:
+                    pass
+            else:
                 # url does not exists, assign a new page_id
                 c2.execute("SELECT COUNT(*) FROM urls")
                 new_page_id = c2.fetchone()[0] + 1
+                last_mod_date = dateutil.parser.parse(page.last_mod_date).strftime('%Y-%m-%d %H:%M:%S')
                 c1.execute("INSERT INTO urls VALUES (?,?)",(page.url, new_page_id))
                 c2.execute("INSERT INTO forward_index VALUES (?,?)", (new_page_id, json.dumps(page.keyword_counts)))
+                c1.execute("INSERT INTO content VALUES (?,?,?,?,?,?,?)",
+                           (new_page_id, page.url, page.title, last_mod_date, page.file_size, json.dumps(page.child_link), json.dumps(page.parent_link)))
         connection.commit()
         connection.close()
         
-    def dbinverted(self):
+    def dbinverted(self, filename):
         """Calculate the inverted index and put it into database. dbforward() must be runned before dbinverted()
         """
-        connection = sqlite3.connect('indexer.db')
+        connection = sqlite3.connect(filename)
         c1 = connection.cursor()
         c1.execute("SELECT * FROM forward_index")
         results = c1.fetchall()
@@ -310,33 +317,30 @@ class HTML_list:
         connection.commit()
         connection.close()
 
-    def dbtest(self):
-        connection = sqlite3.connect('indexer.db')
+    def dbtest(self, filename, tablename):
+        """ Print out all items of a table from a .db file.
+
+        Args:
+            filename (string): filename/filepath
+            tablename (string): tablename
+        """
+        connection = sqlite3.connect(filename)
         c1 = connection.cursor()
-        c1.execute("SELECT * FROM inverted_index")
+        c1.execute(f"SELECT * FROM {tablename}")
         words = c1.fetchall()
         for word in words:
-            print(word[1])
-            #print(type(word[1]))
-            #print(json.loads(word[1]))
-            #print(type(json.loads(word[1])))
+            print(word)
 
 
-# Testing the crawler
-A = HTML_list()
-A.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)
+def testprogram():
+    spider = HTML_list()
+    spider.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)      # recursively crawl the pages
 
-# Testing db file creation
-A.createdb()
-A.dbforward()       # Forward indexing
-A.dbinverted()      # Creating Inverted Index. dbforward() must be runned before this.
-A.dbtest()          # Retrieve contents of db file.
+    db_filename = 'indexer.db'          # Specify the name of the db file you have/ you will create
+    spider.createdb(db_filename)        # Create the .db file for storing pages newly fetched pages OR Clean an existing .db file to store newly fetched pages.
+    spider.dbforward(db_filename)       # Inserting data into table {urls, forward_index, content}
+    spider.dbinverted(db_filename)      # Calculate inverted index and insert data into table {words, inverted_index}
 
-A.export('return')
-# A.test()
+    # spider.dbtest(db_filename, tablename = 'words')   # Retrieve and print contents of table "words" from db file
 
-
-# When you would like to store a dictionary to a db table
-# You have to make it a string first by json.dumps(_dict_)
-# When you would like to get a dictionary from a db table
-# You have to make it a dictionary first by json.loads(_string_)
+    spider.export('return')             # Create spider-result.txt by mode = 'return' (mode='print' will print the results instead)
