@@ -60,6 +60,15 @@ class page:
             if response.url.startswith(link.split(".htm")[0].strip()):
                 self.parent_link.append(link)
 
+    def __repr__(self) -> str:
+        pagetitle = f"Page Title: {self.title}\n" 
+        url = f"URL: {self.url}\n"
+        modidate = f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}Bytes\n"
+        keyfreq = f"Keyword frequency: {self.returnwordfreq(10)}\n"
+        childlink = f"Child Links: {self.child_link[:10]}\n"
+        parentlink = f"Parent Links: {self.parent_link}\n"
+        hypens = "-------------------------------------------------------------------\n"
+        return pagetitle + url + modidate + keyfreq + childlink + parentlink + hypens
 
     def stopstem(self, url, text): # stemming and stopword removal
         stemmer = PorterStemmer()
@@ -108,34 +117,7 @@ class page:
     def deep_copy(self):
         return copy.deepcopy(self)
 
-    def display(self, mode):
-        """ Output crawl result by printing or returning
-
-        Args:
-            mode (String): "print"/"return". Print will print the function 
-
-        Returns:
-            String: return crawl result if the mode is "return"
-        """
-        if mode == 'print':
-            print(f"Page Title: {self.title}")
-            print(f"URL: {self.url}")
-            print(f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}Bytes")
-            print(f"Keyword frequency: {self.returnwordfreq(10)}")
-            print(f"Child Links: {self.child_link[:10]}")
-            print(f"Parent Links: {self.parent_link}")
-            print("-------------------------------------------------------------------")
-            pass
-        elif mode == 'return':
-            pagetitle = f"Page Title: {self.title}\n" 
-            url = f"URL: {self.url}\n"
-            modidate = f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}Bytes\n"
-            keyfreq = f"Keyword frequency: {self.returnwordfreq(10)}\n"
-            childlink = f"Child Links: {self.child_link[:10]}\n"
-            parentlink = f"Parent Links: {self.parent_link}\n"
-            hypens = "-------------------------------------------------------------------\n"
-            return pagetitle + url + modidate + keyfreq + childlink + parentlink + hypens
-    
+        
 
 class HTML_list:
     crawled_list = set()
@@ -214,7 +196,7 @@ class HTML_list:
         """
         with open("spider-result.txt", "w") as f:
             for page in self.HTML_list:
-                f.write(page.display('return'))
+                f.write(page.__repr__())
     
     # output the search result with page's display function, will be modified to output to a text file
     def test(self):
