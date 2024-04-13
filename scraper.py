@@ -62,7 +62,7 @@ class page:
             if response.url.startswith(link.split(".htm")[0].strip()):
                 self.parent_link.append(link)
 
-    def __str__(self) -> str:
+    def __repr__(self) -> str:
         pagetitle = f"Page Title: {self.title}\n" 
         url = f"URL: {self.url}\n"
         modidate = f"Last modification date: {self.last_mod_date} | Size of Page: {self.file_size}Bytes\n"
@@ -72,8 +72,29 @@ class page:
         hypens = "-------------------------------------------------------------------\n"
         return pagetitle + url + modidate + keyfreq + childlink + parentlink + hypens
 
-    #def __lt__(self, other):
+    def __lt__(self, other): #return if self < other, if self is older than other, then return true 
+        sefdate = self.convertdate()
+        otherdate = other.convertdate()
+        return sefdate < otherdate
 
+
+    def convertdate(self) -> datetime:
+        str = self.last_mod_date
+        month_dict = {
+            "Jan": 1,
+            "Feb": 2,
+            "Mar": 3,
+            "Apr": 4,
+            "May": 5,
+            "Jun": 6,
+            "Jul": 7,
+            "Aug": 8,
+            "Sep": 9,
+            "Oct": 10,
+            "Nov": 11,
+            "Dec": 12
+        }
+        return datetime.datetime(int(str[12:16]), month_dict[str[8:11]], int(str[5:7]), int(str[17:19]), int(str[20:22]), int(str[23:25]))
     
     def stopstem(self, url, text): # stemming and stopword removal
         stemmer = PorterStemmer()
@@ -149,8 +170,8 @@ class HTML_list:
         Info = page(url)
         if url in self.crawled_list:
             #If the page is updated, then replace the old with new
-            modDate = requests.get(url).headers.get('last-modified')
-            if modDate > self.get_by_url(url).last_mod_date:
+            #if modDate > self.get_by_url(url).last_mod_date:
+            if self.get_by_url(url) < Info:
                 Info.wordfreq(Info.stopstem(url, Info.title), 't')
                 Info.wordfreq(Info.stopstem(url, Info.body), 'b')
                 idx = self.get_idx_by_url(url)
@@ -201,12 +222,12 @@ class HTML_list:
         """
         with open("spider_result.txt", "w") as f:
             for page in self.HTML_list:
-                f.write(page)
+                f.write(repr(page))
     
     # output the search result with page's display function, will be modified to output to a text file
     def test(self):
         for page in self.HTML_list:
-            print(page)
+            print(repr(page))
         print(f"Web crawling finished, {len(self.HTML_list)} results found.")
 
 
