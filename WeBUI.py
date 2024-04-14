@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+import re
 
 app = Flask(__name__)
 
@@ -14,9 +15,9 @@ def search():
     with open("spider_result.txt", 'r') as file:
         content = file.read()
     # Perform search operations here
-    
+    content_with_links = re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', content)
     # Render search results
-    return render_template('results.html', content=content, query=query)
+    return render_template('results.html', content=content_with_links, query=query)
 
 if __name__ == '__main__':
     app.run(debug=True)
