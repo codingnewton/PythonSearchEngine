@@ -5,7 +5,7 @@ def main():
     spider = HTML_list()
 
     # Start the web crawling process
-    spider.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)
+    spider.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 300)
 
     filename = "indexertest.db"
 

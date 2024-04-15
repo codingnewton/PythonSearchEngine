@@ -220,8 +220,9 @@ class HTML_list:
         Args:
             mode (_string_): _"print"/"return": print is print, return is .txt file_
         """
-        with open("spider_result.txt", "w") as f:
-            for page in self.HTML_list:
+        with open("spider_result.txt", "w", encoding="utf-8") as f:
+            for i, page in enumerate(self.HTML_list):
+                #f.write(f"Index: {i}\n")
                 f.write(repr(page))
     
     # output the search result with page's display function, will be modified to output to a text file
