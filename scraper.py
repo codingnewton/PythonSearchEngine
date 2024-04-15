@@ -355,7 +355,7 @@ class HTML_list:
 
 def testprogram():
     spider = HTML_list()
-    spider.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 30)      # recursively crawl the pages
+    spider.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 300)      # recursively crawl the pages
 
     db_filename = 'indexer.db'          # Specify the name of the db file you have/ you will create
     spider.createdb(db_filename)        # Create the .db file for storing pages newly fetched pages OR Clean an existing .db file to store newly fetched pages.
