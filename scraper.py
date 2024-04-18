@@ -28,7 +28,6 @@ class page:
         self.keyword_counts = {} # wordfreq() has to be executed to store this
         self.page_title_kword = {}
     
-
     def __init__(self, url): # The scraping process
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'lxml')
@@ -112,7 +111,6 @@ class page:
         self.stemmed = stemmed
         return stemmed
     
-
     def wordfreq(self, stemmed, mode):
         keyword_counts = {}
         # Increment count for this keyword
@@ -147,6 +145,10 @@ class page:
 
 class HTML_list:
     crawled_list = set()
+
+    # TODO:sort the HTML list by index
+    def HTMLlist_sort(self):
+        pass       
 
     def __init__(self):
        self.HTML_list = [] # list of page for later sorting
@@ -200,26 +202,14 @@ class HTML_list:
     def get_idx_by_url(self, url):
         idx = 0
         try:
-            for html in self.HTML_list:
+            for i, html in enumerate(self.HTML_list):
                 if html.url == url:
-                    return idx
-                else:
-                    idx = idx+1
+                    return i
         except:
             return -1
-
-
-    # sort the HTML list by index
-    def HTMLlist_sort(self):
-        pass            
-    
+         
     # Export search results as "spider-result.txt"
     def export(self, mode):
-        """ Export by print or by storing into "spider-result.txt"
-
-        Args:
-            mode (_string_): _"print"/"return": print is print, return is .txt file_
-        """
         with open("spider_result.txt", "w", encoding="utf-8") as f:
             for i, page in enumerate(self.HTML_list):
                 #f.write(f"Index: {i}\n")
