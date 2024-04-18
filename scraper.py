@@ -147,7 +147,7 @@ class HTML_list:
     crawled_list = set()
 
     # TODO:sort the HTML list by index
-    def HTMLlist_sort(self):
+    def HTMLlist_sort(self, query):
         pass       
 
     def __init__(self):
