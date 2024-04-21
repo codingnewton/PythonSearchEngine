@@ -146,10 +146,6 @@ class page:
 class HTML_list:
     crawled_list = set()
 
-    # TODO:sort the HTML list by index
-    def HTMLlist_sort(self, query):
-        pass       
-
     def __init__(self):
        self.HTML_list = [] # list of page for later sorting
 
@@ -210,6 +206,11 @@ class HTML_list:
          
     # Export search results as "spider-result.txt"
     def export(self, mode):
+        """ Export by print or by storing into "spider-result.txt"
+
+        Args:
+            mode (_string_): _"print"/"return": print is print, return is .txt file_
+        """
         with open("spider_result.txt", "w", encoding="utf-8") as f:
             for i, page in enumerate(self.HTML_list):
                 #f.write(f"Index: {i}\n")
@@ -342,6 +343,32 @@ class HTML_list:
         words = c1.fetchall()
         for word in words:
             print(word)
+
+    def retrieve(self, filename, url):
+        """ Get the information of an url from the database from generating the pages
+
+        Args:
+            filename (string): filename/filepath
+            url (string): the url of the page you want to fetch 
+
+        Returns:
+            page_title ():
+        """
+        connection = sqlite3.connect(filename)
+        c1 = connection.cursor()
+        c1.execute("SELECT page_id FROM urls WHERE url=?", (url))
+        page_id = c1.fetchone()
+        c1.execute("SELECT * FROM content WHERE page_id=?", (page_id))
+        content = c1.fetchall()
+        for data_tuple in content:
+            page_title = data_tuple[2]
+            last_mod_date = data_tuple[3]
+            file_size = data_tuple[4]
+            child_link = json.load(data_tuple[5])
+            parent_link = json.load(data_tuple[6])
+        c1.execute("SELECT word_freq FROM forward_index WHERE page_id=?",(page_id))
+        word_freq = json.load(c1.fetchall())
+        return page_title, last_mod_date, file_size, word_freq, child_link, parent_link
 
 
 def testprogram():
