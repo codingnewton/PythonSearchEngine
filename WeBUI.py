@@ -24,7 +24,7 @@ def search():
     with open("spider_result.txt", 'r', encoding="utf-8") as file:
         content = file.read()
     with open(r"spider_result.txt", "r", encoding="utf-8") as file:
-        count = int(len(file.readlines())/8)
+        count = int(len(file.readlines())/7)
     # Perform search operations here
     content_with_links = re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', content)
     # Render search results
