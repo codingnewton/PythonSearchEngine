@@ -1,26 +1,41 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
 
-def search_documents(query, documents, titles):
-    # Initialize the TfidfVectorizer
-    tfidf_vectorizer = TfidfVectorizer()
+class YourClass:
+    def __init__(self):
+        self.vectorizer = TfidfVectorizer()
 
-    # Fit and transform the documents
-    document_tfidf_matrix = tfidf_vectorizer.fit_transform(documents)
+    def pagerank(self, M, num_iterations=100, d=0.85):
+        N = M.shape[1]
+        v = np.random.rand(N, 1)
+        v = v / np.linalg.norm(v, 1)
+        M_hat = (d * M + (1 - d) / N)
+        for i in range(num_iterations):
+            v = M_hat @ v
+        return v
 
-    # Transform the query
-    query_tfidf = tfidf_vectorizer.transform([query])
+    def ranking(self, documents, query, titles):
+        # Fit the vectorizer and transform the documents into vectors
+        document_vectors = self.vectorizer.fit_transform(documents)
 
-    # Calculate the cosine similarities between the query and all documents
-    cosine_similarities = cosine_similarity(query_tfidf, document_tfidf_matrix).flatten()
+        # Transform the query into a vector
+        query_vector = self.vectorizer.transform([query])
 
-    # Boost the cosine similarities for documents where the query matches the title
-    for i in range(len(documents)):
-        if query.lower() in titles[i].lower():
-            cosine_similarities[i] *= 1.5  # Increase the weight by 50%
+        # Calculate the cosine similarity between the query vector and each document vector
+        similarities = cosine_similarity(query_vector, document_vectors)
 
-    # Get the indices of the top 50 documents
-    top_50_indices = cosine_similarities.argsort()[:-51:-1]
+        # Create an adjacency matrix for PageRank
+        adjacency_matrix = (similarities > 0).astype(int)
 
-    # Return the top 50 documents
-    return [documents[i] for i in top_50_indices]
+        # Calculate PageRank scores
+        pagerank_scores = self.pagerank(adjacency_matrix)
+
+        # Combine cosine similarity with PageRank and favor matches in title
+        final_scores = {i: (0.5 * similarities[0][i] + 0.5 * pagerank_scores[i]) * (1 + titles[i].lower().count(query.lower())) for i in range(len(documents))}
+
+        # Get the indices of the documents sorted by their final score (in descending order)
+        ranked_indices = sorted(final_scores, key=final_scores.get, reverse=True)
+
+        # Return the documents in their ranked order
+        return [documents[i] for i in ranked_indices]
