@@ -11,7 +11,26 @@
     <h1>Search Results of {{query}}</h1>
     <h3>{{numOfPage}} pages found:</h3>
     <!-- Display search results here -->
-    <pre>{{content | safe }}</pre>
+    <!--<pre>{{content | safe }}</pre>-->
+
+    <ul>
+        {% for page in content %}
+            <li><h3>{{page.title}}</h3> </li>
+            <li><h4>{{page.url}}</h4></li>
+            <li><p>Last Modification Date: {{page.last_mod_date}} | Size of Page: {{page.file_size}} Bytes</p></li>
+            <li><p>Keyword frequency: {{page.returnwordfreq(10)}}</p></li>
+            <li>
+                {% for child in page.child_link %}
+                    <p>{{child}}</p>
+                {% endfor %}
+            </li>    
+            <li>
+                {% for parent in page.parent_link %}
+                    <p>{{parent}}</p>
+                {% endfor %}
+            </li>        
+        {% endfor %}
+    </ul>
     <a href="/" class="btn">Go Back</a>
 </body>
 </html>
