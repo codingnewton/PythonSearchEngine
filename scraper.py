@@ -234,23 +234,37 @@ class HTML_list:
         # Drop table if exist
         cursor.execute('DROP TABLE IF EXISTS forward_index')
         cursor.execute('DROP TABLE IF EXISTS inverted_index')
+        cursor.execute('DROP TABLE IF EXISTS forward_title_index')
+        cursor.execute('DROP TABLE IF EXISTS inverted_title_index')
         cursor.execute('DROP TABLE IF EXISTS content')
         cursor.execute('DROP TABLE IF EXISTS urls')
         cursor.execute('DROP TABLE IF EXISTS words')
 
         # 1st table: forward_index(page_id, word_freq)
         cursor.execute("""CREATE TABLE forward_index(
-                       page_id INTEGER,
+                       page_id INTEGER PRIMARY KEY,
                        word_freq TEXT
         )""")
 
         # 2nd table: inverted_index(page_id, page_freq)
         cursor.execute("""CREATE TABLE inverted_index(
-                       word_id INTEGER,
+                       word_id INTEGER PRIMARY KEY,
                        page_freq TEXT
         )""")
 
-        # 3rd table: content(page_id, url, pagetitle, last_mod_date, file_size, child_link, parent_link)
+        # 3rd table: forward_title_index(page_id, word_freq)
+        cursor.execute("""CREATE TABLE forward_title_index(
+                       page_id INTEGER PRIMARY KEY,
+                       word_freq TEXT
+        )""")
+
+        # 4th table: inverted_title_index(page_id, page_freq)
+        cursor.execute("""CREATE TABLE inverted_title_index(
+                       word_id INTEGER PRIMARY KEY,
+                       page_freq TEXT
+        )""")
+
+        # 5th table: content(page_id, url, pagetitle, last_mod_date, file_size, child_link, parent_link)
         cursor.execute("""CREATE TABLE content(
                        page_id INTEGER,
                        url TEXT,
@@ -274,77 +288,135 @@ class HTML_list:
         )""")
 
     def dbforward(self, filename):
-        """ Insert to a db file by data crawled in the class (HTML_list)
+        """ Insert to a db file by new data crawled in the class (HTML_list)
+        This function also supports data update for whenever there is a newer mod_date
+            Database tables involved:
+            - urls
+            - content
+            - forward_index
+            - forward_title_index
         """
         connection = sqlite3.connect(filename)
         c1 = connection.cursor()
         c2 = connection.cursor()
         for page in self.HTML_list:
+
             # Check if URL already exists
             c1.execute("SELECT page_id FROM urls WHERE url=?", (page.url,))
             if c1.fetchone():
                 c2.execute("SELECT last_mod_date FROM content WHERE page_id=?", (page.url))
                 new_last_mod_date = page.last_mod_date
                 old_last_mod_date = c2.fetchone()[0]
-                if new_last_mod_date > old_last_mod_date:
-                    pass
-            else:
-                # url does not exists, assign a new page_id
-                c2.execute("SELECT COUNT(*) FROM urls")
-                new_page_id = c2.fetchone()[0] + 1
-                last_mod_date = dateutil.parser.parse(page.last_mod_date).strftime('%Y-%m-%d %H:%M:%S')
-                c1.execute("INSERT INTO urls VALUES (?,?)",(page.url, new_page_id))
-                c2.execute("INSERT INTO forward_index VALUES (?,?)", (new_page_id, json.dumps(page.keyword_counts)))
-                c1.execute("INSERT INTO content VALUES (?,?,?,?,?,?,?)",
-                           (new_page_id, page.url, page.title, last_mod_date, page.file_size, json.dumps(page.child_link), json.dumps(page.parent_link)))
+                if new_last_mod_date > old_last_mod_date:               # Update new value if (new_last_mod_date > old_last_mod_date)
+                    page_id = c1.fetchone()[0]
+                    last_mod_date = dateutil.parser.parse(page.last_mod_date).strftime('%Y-%m-%d %H:%M:%S')
+                    c2.execute("UPDATE forward_index SET word_freq = (?) WHERE page_id = (?)", (json.dumps(page.keyword_counts), page_id))      # NOT SURE WHETHER THIS CODE IS CORRECT
+                    c2.execute("UPDATE forward_title_index SET word_freq = (?) WHERE page_id = (?)", (json.dumps(page.page_title_kword), page_id))      # NOT SURE WHETHER THIS CODE IS CORRECT
+                    c1.execute("UPDATE content SET pagetitle = (?), last_mod_date = (?), file_size = (?), child_link = (?), parent_link = (?) WHERE page_id = (?)",
+                               (page.title, last_mod_date, page.file_size, json.dumps(page.child_link), json.dumps(page.parent_link), page_id))
+                else:
+                    continue
+            # url does not exists, assign a new page_id and insert data into database file
+            c2.execute("SELECT COUNT(*) FROM urls")
+            new_page_id = c2.fetchone()[0] + 1
+            last_mod_date = dateutil.parser.parse(page.last_mod_date).strftime('%Y-%m-%d %H:%M:%S')
+            c1.execute("INSERT INTO urls VALUES (?,?)",(page.url, new_page_id))
+            c2.execute("INSERT INTO forward_index VALUES (?,?)", (new_page_id, json.dumps(page.keyword_counts)))
+            c2.execute("INSERT INTO forward_title_index VALUES (?,?)", (new_page_id, json.dumps(page.page_title_kword)))
+            c1.execute("INSERT INTO content VALUES (?,?,?,?,?,?,?)",
+                       (new_page_id, page.url, page.title, last_mod_date, page.file_size, json.dumps(page.child_link), json.dumps(page.parent_link)))
         connection.commit()
         connection.close()
         
     def dbinverted(self, filename):
         """Calculate the inverted index and put it into database. dbforward() must be runned before dbinverted()
+           THIS FUNCTION DOES NOT SUPPORT UPDATING INVERTED INDEX YET
+           Database tables involved:
+            - forward_index (data extraction only)
+            - forward_title_index (data extraction only)
+            - words
+            - inverted_index
+             -inverted_title_index
         """
+
+        # Getting data for inverting indexes and assigning/matching word_id
         connection = sqlite3.connect(filename)
-        c1 = connection.cursor()
+        c1 = connection.cursor()                                # c1 is handling page bodies keywords
+        c2 = connection.cursor()                                # c2 is handling page titles keywords
+        c3 = connection.cursor()                                # c3 is handling table 'words'
         c1.execute("SELECT * FROM forward_index")
-        results = c1.fetchall()
-        Word_Freq = {}
+        c2.execute("SELECT * FROM forward_title_index")
+        c3.execute("SELECT * FROM words")
+        results_bodies = c1.fetchall()
+        results_titles = c2.fetchall()
+        Word_Freq_Bodies = {}
+        Word_Freq_Titles = {}
+        words = c3.fetchall()
         Word_Id = {}
-        for page in results:
+        New_Word_Id = {}
+        for word in words:
+            Word_Id[word[0]] = word[1]                          # word[0] is the word itself; word[1] is the word id
+        
+        # For page bodies
+        for page in results_bodies:
             page_id = page[0]
             word_freq = json.loads(page[1])
             for word, freq in word_freq.items():
-                if word in Word_Id.keys():
-                    word_id = Word_Id[word]                     # Getting word id of a word
-                    Word_Freq[word_id][page_id] = freq          # Create a new item for dictionary (page_freq) to store the word frequency of a new page
-                else:
-                    pages_freq = {}                             # Create a dictionary to store the word frequency of pages (page_freq)
-                    Word_Id[word] = len(Word_Id) + 1            # Create a new item for table words 
-                    pages_freq[page_id] = freq                  # Create a new item for dictionary (page_freq) to store the word frequency of a page
-                    Word_Freq[Word_Id[word]] = pages_freq  
+                if word in Word_Id.keys():  # If word already exists in the database table "words"
+                    # print("debug: BODY, EXIST")
+                    pages_freq = {}
+                    word_id = Word_Id[word]                             # Getting word id of a word
+                    pages_freq[page_id] = freq
+                    Word_Freq_Bodies[word_id] = pages_freq              # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a new page
+                else:                       # If word does not exist in the database table "words"
+                    # print("debug: BODY, NOT-EXIST")
+                    pages_freq = {}                                     # Create a dictionary to store the word frequency of pages (page_freq)
+                    new_word_id = len(Word_Id) + 1                      # Assign new_word_id to the new word introduced
+                    New_Word_Id[word] = Word_Id[word] = new_word_id     # Create a new item for table "words"  # The reason for assigning both Word_id and New_Word_Id is to prevent adding two new Word_Id in the same iteration which will result in error. 
+                    pages_freq[page_id] = freq                          # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a page (page_freq)
+                    Word_Freq_Bodies[new_word_id] = pages_freq  
+        
+        # For page titles
+        for page in results_titles:
+            page_id = page[0]
+            word_freq = json.loads(page[1])
+            for word, freq in word_freq.items():
+                if word in Word_Id.keys():  # If word already exists in the database table "words"
+                    # print("debug: TITLE, EXIST")
+                    pages_freq = {}                                     # Create a temporary dictionary to store the word frequency of pages (page_freq)
+                    word_id = Word_Id[word]                             # Getting word id of a word
+                    pages_freq[page_id] = freq                           # Create a new item for dictionary (Word_Freq_Titles) to store the word frequency of a page (page_freq)
+                    Word_Freq_Titles[word_id] = pages_freq              # Create a new item for dictionary (Word_Freq_Titles) to store the word frequency of a new page
+                else:                       # If word does not exist in the database table "words"
+                    # print("debug: TITLE, NOT-EXIST")
+                    pages_freq = {}                                     # Create a temporary dictionary to store the word frequency of pages (page_freq)
+                    new_word_id = len(Word_Id) + 1                      # Assign new_word_id to the new word introduced
+                    New_Word_Id[word] = Word_Id[word] = new_word_id     # Create a new item for table "words" # The reason for assigning both Word_id and New_Word_Id is to prevent adding two new Word_Id in the same iteration which will result in error.  
+                    pages_freq[page_id] = freq                          # Create a new item for dictionary (Word_Freq_Titles) to store the word frequency of a page (page_freq)
+                    Word_Freq_Titles[new_word_id] = pages_freq                 
      
         # Inserting the dictionaries into tables
-        for word, word_id in Word_Id.items():
+        for word, word_id in New_Word_Id.items():
             c1.execute("INSERT INTO words VALUES (?,?)", (word, word_id))
-        for word_id, page_freq in Word_Freq.items():
-            c1.execute("INSERT INTO inverted_index VALUES (?,?)", (word_id, json.dumps(page_freq)))
+        for word_id, page_freq in Word_Freq_Bodies.items():
+            c1.execute("INSERT INTO inverted_index VALUES (?,?) ON CONFLICT (word_id) DO UPDATE SET word_id = excluded.word_id", 
+                       (word_id, json.dumps(page_freq)))
+        for word_id, page_freq in Word_Freq_Titles.items():
+            c1.execute("INSERT INTO inverted_title_index VALUES (?,?) ON CONFLICT (word_id) DO UPDATE SET word_id = excluded.word_id", 
+                       (word_id, json.dumps(page_freq)))            
         connection.commit()
         connection.close()
 
-    def dbtest(self, filename, tablename):
-        """ Print out all items of a table from a .db file.
+    def inverting(self, filename, url):
+        """For updating inverted index which pages has been existed in the databse
 
         Args:
-            filename (string): filename/filepath
-            tablename (string): tablename
+            filename (_type_): _description_
+            url (_type_): _description_
         """
-        connection = sqlite3.connect(filename)
-        c1 = connection.cursor()
-        c1.execute(f"SELECT * FROM {tablename}")
-        words = c1.fetchall()
-        for word in words:
-            print(word)
+        pass
 
-    def retrieve(self, filename, url):
+    def fileretrieve(self, filename, url):
         """ Get the information of an url from the database from generating the pages
 
         Args:
@@ -369,6 +441,54 @@ class HTML_list:
         c1.execute("SELECT word_freq FROM forward_index WHERE page_id=?",(page_id))
         word_freq = json.load(c1.fetchall())
         return page_title, last_mod_date, file_size, word_freq, child_link, parent_link
+
+    def queryretrieve(self, filename, query):
+        f"""Retrieve the inverted index of query terms from {filename} and output a 2D array ready for cosine similarity processing
+
+        Args:
+            filename (string): filename/filepath
+            query (list): list of strings (query terms)
+
+        Returns:
+            2D array: Posting list for cosine similarity processing
+        """
+        # Format preparation before sending the query into .db file
+        connection = sqlite3.connect(filename)
+        c1 = connection.cursor()
+        qs = "(" + ",".join("?" * len(query)) + ")"
+        query = tuple(query)
+        # Search up the word_id of the words
+        c1.execute(f'''SELECT word_id FROM words WHERE word IN {qs} AND NOT '' ''', (query))
+        word_ids = c1.fetchall()
+        # Process the output word_id as it is in the format of tuple
+        word_ids = tuple(word_id for inner_tuple in word_ids for word_id in inner_tuple)
+        # Fetch posting lists for page bodies
+        c1.execute(f'''SELECT * FROM inverted_index WHERE word_id IN {qs}''', (word_ids))
+        postingslistbodies = c1.fetchall()           
+        # Fetch posting lists for page bodies
+        c1.execute(f'''SELECT * FROM inverted_title_index WHERE word_id IN {qs}''', (word_ids))
+        postingslisttitles = c1.fetchall()                                                           # Non-processed output
+        return postingslistbodies, postingslisttitles
+
+    def cosinesimilarity(self):
+        pass
+
+
+    def dbtest(self, filename, tablename):
+        """ Print out all items of a table from a .db file.
+
+        Args:
+            filename (string): filename/filepath
+            tablename (string): tablename
+        """
+        connection = sqlite3.connect(filename)
+        c1 = connection.cursor()
+        c1.execute(f"SELECT * FROM {tablename}")
+        words = c1.fetchall()
+        for word in words:
+            print(word)
+
+    
 
 
 def testprogram():

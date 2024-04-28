@@ -17,7 +17,15 @@ This document describes the design of the SQLite3 database schema for the indexe
    - word_id (INTEGER)
    - page_freq (TEXT)
 
-3. **content**: This table is for storing content of pages.
+3. **forward_title_index**: This table is used for forward indexing of *page title* and stores the word frequencies for each *page title*.
+   - page_id (INTEGER)
+   - word_freq (TEXT)
+
+4. **inverted_title_index**: This table is used for inverted indexing of *page title* and stores the page frequencies for each word.
+   - word_id (INTEGER)
+   - page_freq (TEXT)
+
+5. **content**: This table is for storing content of pages.
    - page_id (INTEGER)
    - url (TEXT)
    - pagetitle (TEXT)
@@ -26,11 +34,11 @@ This document describes the design of the SQLite3 database schema for the indexe
    - child_link (TEXT)
    - parent_link (TEXT)
 
-5. **urls**: This table maps the URLs to page_id for easy access.
+6. **urls**: This table maps the URLs to page_id for easy access.
    - url (TEXT PRIMARY KEY)
    - page_id (INTEGER)
 
-6. **words**: This table maps the words to word_id for easy access.
+7. **words**: This table maps the words to word_id for easy access.
    - word (TEXT PRIMARY KEY)
    - word_id (INTEGER)
 
