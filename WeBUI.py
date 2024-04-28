@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import re
 from scraper import page, HTML_list
+import datetime
 
 app = Flask(__name__)
 spider = HTML_list()
