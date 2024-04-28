@@ -146,8 +146,20 @@ class page:
 class HTML_list:
     crawled_list = set()
 
+    def deep_copy(self):
+        return copy.deepcopy(self)    
+
     def __init__(self):
        self.HTML_list = [] # list of page for later sorting
+        # Web graph for PageRanking
+
+    def create_web_graph(self):
+        web_graph = {}
+        for obj in self.HTML_list:
+            if obj.url not in web_graph:
+                web_graph[obj.url] = obj.child_link
+        
+        return web_graph
 
     def get_object_at(self, idx):
         try: 
@@ -155,7 +167,15 @@ class HTML_list:
         except:
             print("Error: Invalid argument")
             return 0
-    
+
+    def create_web_graph(self):
+        web_graph = {}
+        for obj in self.HTML_list:
+            if obj.url not in web_graph:
+                web_graph[obj.url] = obj.child_link
+        
+        return web_graph
+
     def crawl(self, url, n):
         """Recursively crawl the pages
 
