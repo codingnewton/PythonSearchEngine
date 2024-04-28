@@ -33,6 +33,12 @@ def calculate_pagerank(web_graph, damping_factor=0.85, max_iterations=100, epsil
 
     return pagerank
 
+def log_query(query):
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    with open("query_log.txt", "a") as f:
+        f.write(f"{timestamp}: {query}\n")
+
 # Home page
 @app.route('/')
 def home():
@@ -48,10 +54,14 @@ def home():
 @app.route('/search', methods=['POST'])
 def search():
     query = request.form['query']
+    log_query(query) # query is logged
+
+    # Page Rank the Spider.HTML
     web_graph = spider.create_web_graph()
     pr = calculate_pagerank(web_graph)
     sorted_list = spider.HTML_list
     sorted_links = sorted(spider.HTML_list, key=lambda obj: pr[obj.url], reverse=True)
+    
     #sorting/ranking operation
     spider.export('return')
     #with open("spider_result.txt", 'r', encoding="utf-8") as file:
