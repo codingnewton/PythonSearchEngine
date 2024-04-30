@@ -490,45 +490,39 @@ class HTML_list:
         postingslisttitles = c1.fetchall()                                                           # Non-processed output
         return postingslistbodies, postingslisttitles
 
-    def cosinesimilarity(self):
-        bodies, titles = self.queryretrieve()
-
+    def cosinesimilarity(self, query):
+        bodies, titles = self.retrieve()  # Assuming self.retrieve() is already defined
+    
         # Step 1: Extract the document IDs from the postings
         body_document_ids = [i[0] for i in bodies]
         title_document_ids = [j[0] for j in titles]
-
+    
         # Step 2: Create a term-document matrix
         term_document_matrix = {}
         for posting in bodies + titles:
             document_id = posting[0]
             term_frequency = posting[1]
             term = posting[2]
-
+    
             if document_id not in term_document_matrix:
                 term_document_matrix[document_id] = {}
-
+    
             term_document_matrix[document_id][term] = term_frequency
-            
+    
         # Step 3: Calculate the cosine similarity
-        query_vector = {term: query.count(term) for term in query}
-
+        query_vector = np.array([query.count(term) for term in query])
+    
         cosine_similarity_scores = []
         for document_id, document_terms in term_document_matrix.items():
-            dot_product = 0
-            query_norm = 0
-            document_norm = 0
-
-            for term, frequency in document_terms.items():
-                dot_product += query_vector.get(term, 0) * frequency
-                query_norm += query_vector.get(term, 0) ** 2
-                document_norm += frequency ** 2
-
-            query_norm = math.sqrt(query_norm)
-            document_norm = math.sqrt(document_norm)
-
+            document_vector = np.array([document_terms.get(term, 0) for term in query])
+    
+            dot_product = np.dot(query_vector, document_vector)
+            query_norm = np.linalg.norm(query_vector)
+            document_norm = np.linalg.norm(document_vector)
+    
             cosine_similarity = dot_product / (query_norm * document_norm)
             cosine_similarity_scores.append((document_id, cosine_similarity))
-
+    
         return cosine_similarity_scores
 
     def dbtest(self, filename, tablename):
