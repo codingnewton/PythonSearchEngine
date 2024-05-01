@@ -11,6 +11,7 @@ import datetime
 import dateutil.parser
 nltk.download('punkt')
 import copy
+import numpy as np
 
 class page:
     crawled_url = set()
