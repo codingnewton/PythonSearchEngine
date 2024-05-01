@@ -65,13 +65,13 @@ def search():
     
     #sorting/ranking operation
     spider.export('return')
-    #with open("spider_result.txt", 'r', encoding="utf-8") as file:
-    #    content = file.read()
-    #with open(r"spider_result.txt", "r", encoding="utf-8") as file:
-    count = 297 #int(len(file.readlines())/7)
-    #content_with_links = re.sub(r'(https?://\S+)', r'<a href="\1">\1</a>', content)
+
+    count = len(spider.HTML_list) #int(len(file.readlines())/7)
+
+
     # Render search results
-    return render_template('results.html', content=sorted_list, query=query, numOfPage=count)
+    #return render_template('results.html', content=sorted_list, query=query, numOfPage=count)
+    return render_template('test1.html', search_results=spider.HTML_list, count=count)
 
 if __name__ == '__main__':
     app.run(debug=True)

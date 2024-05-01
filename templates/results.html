@@ -2,33 +2,87 @@
 <html>
 <head>
     <title>Search Results</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: center;
+            height: 50px; 
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .navbar input[type="text"] {
+            width: 200px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .navbar button {
+            height: 30px;
+        }
+        .content {
+            padding-top: 50px;
+        }
+    </style>
 </head>
 <body>
-    <form action="/search" method="post">
+    <div class="navbar">
+        <input type="text" name="query" placeholder="Enter your query" required>
+        <button type="submit" value="Search">Search</button>
+    </div>
+    <!--<form action="/search" method="post">
         <input type="text" name="query" placeholder="Enter your search query">
         <input type="submit" value="Search">
-    </form>
+    </form>-->
+    <br>
+    <br>
     <h1>Search Results of {{query}}</h1>
     <h3>{{numOfPage}} pages found:</h3>
     <!-- Display search results here -->
     <!--<pre>{{content | safe }}</pre>-->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     <ul>
         {% for page in content %}
-            <li><h3>{{page.title}}</h3> </li>
-            <li><h4>{{page.url}}</h4></li>
-            <li><p>Last Modification Date: {{page.last_mod_date}} | Size of Page: {{page.file_size}} Bytes</p></li>
-            <li><p>Keyword frequency: {{page.returnwordfreq(10)}}</p></li>
+        <li>
+            <h3>{{page.title}}</h3> 
+            <h4>{{page.url}}</h4>
+            <p>Last Modification Date: {{page.last_mod_date}} | Size of Page: {{page.file_size}} Bytes</p>
+            <p>Keyword frequency: {{page.returnwordfreq(10)}}</p>
             <li>
+                <ul>
                 {% for child in page.child_link %}
-                    <p>{{child}}</p>
-                {% endfor %}
+                    <li>{{child}}</li>
+                {% endfor %}    
+                </ul> 
+                
+                <ul>
+                    {% for parent in page.parent_link %}
+                        <li>{{parent}}</li>
+                    {% endfor %}
+                </ui>  
             </li>    
-            <li>
-                {% for parent in page.parent_link %}
-                    <p>{{parent}}</p>
-                {% endfor %}
-            </li>        
+        </li>
         {% endfor %}
     </ul>
     <a href="/" class="btn">Go Back</a>
