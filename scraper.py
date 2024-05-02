@@ -378,44 +378,40 @@ class HTML_list:
         for word in words:
             Word_Id[word[0]] = word[1]                          # word[0] is the word itself; word[1] is the word id
         
-        # For page bodies
+        # For page body
         for page in results_bodies:
             page_id = page[0]
             word_freq = json.loads(page[1])
             for word, freq in word_freq.items():
                 if word in Word_Id.keys():  # If word already exists in the database table "words"
-                    # print("debug: BODY, EXIST")
-                    pages_freq = {}
-                    word_id = Word_Id[word]                             # Getting word id of a word
-                    pages_freq[page_id] = freq
-                    Word_Freq_Bodies[word_id] = pages_freq              # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a new page
-                else:                       # If word does not exist in the database table "words"
+                    word_id = Word_Id[word]  # Getting word id of a word
+                    if word_id in Word_Freq_Bodies:
+                        Word_Freq_Bodies[word_id][page_id] = freq  # Update the existing value
+                    else:
+                        Word_Freq_Bodies[word_id] = {page_id: freq}  # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a new page
+                else:  # If word does not exist in the database table "words"
                     # print("debug: BODY, NOT-EXIST")
-                    pages_freq = {}                                     # Create a dictionary to store the word frequency of pages (page_freq)
-                    new_word_id = len(Word_Id) + 1                      # Assign new_word_id to the new word introduced
-                    New_Word_Id[word] = Word_Id[word] = new_word_id     # Create a new item for table "words"  # The reason for assigning both Word_id and New_Word_Id is to prevent adding two new Word_Id in the same iteration which will result in error. 
-                    pages_freq[page_id] = freq                          # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a page (page_freq)
-                    Word_Freq_Bodies[new_word_id] = pages_freq  
-        
-        # For page titles
+                    new_word_id = len(Word_Id) + 1  # Assign new_word_id to the new word introduced
+                    New_Word_Id[word] = Word_Id[word] = new_word_id  # Create a new item for table "words"
+                    Word_Freq_Bodies[new_word_id] = {page_id: freq}  # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a page
+
+        # For page title
         for page in results_titles:
             page_id = page[0]
             word_freq = json.loads(page[1])
             for word, freq in word_freq.items():
                 if word in Word_Id.keys():  # If word already exists in the database table "words"
-                    # print("debug: TITLE, EXIST")
-                    pages_freq = {}                                     # Create a temporary dictionary to store the word frequency of pages (page_freq)
-                    word_id = Word_Id[word]                             # Getting word id of a word
-                    pages_freq[page_id] = freq                           # Create a new item for dictionary (Word_Freq_Titles) to store the word frequency of a page (page_freq)
-                    Word_Freq_Titles[word_id] = pages_freq              # Create a new item for dictionary (Word_Freq_Titles) to store the word frequency of a new page
-                else:                       # If word does not exist in the database table "words"
-                    # print("debug: TITLE, NOT-EXIST")
-                    pages_freq = {}                                     # Create a temporary dictionary to store the word frequency of pages (page_freq)
-                    new_word_id = len(Word_Id) + 1                      # Assign new_word_id to the new word introduced
-                    New_Word_Id[word] = Word_Id[word] = new_word_id     # Create a new item for table "words" # The reason for assigning both Word_id and New_Word_Id is to prevent adding two new Word_Id in the same iteration which will result in error.  
-                    pages_freq[page_id] = freq                          # Create a new item for dictionary (Word_Freq_Titles) to store the word frequency of a page (page_freq)
-                    Word_Freq_Titles[new_word_id] = pages_freq                 
-     
+                    word_id = Word_Id[word]  # Getting word id of a word
+                    if word_id in Word_Freq_Titles:
+                        Word_Freq_Titles[word_id][page_id] = freq  # Update the existing value
+                    else:
+                        Word_Freq_Titles[word_id] = {page_id: freq}  # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a new page
+                else:  # If word does not exist in the database table "words"
+                    # print("debug: BODY, NOT-EXIST")
+                    new_word_id = len(Word_Id) + 1  # Assign new_word_id to the new word introduced
+                    New_Word_Id[word] = Word_Id[word] = new_word_id  # Create a new item for table "words"
+                    Word_Freq_Titles[new_word_id] = {page_id: freq}  # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a page        
+
         # Inserting the dictionaries into tables
         for word, word_id in New_Word_Id.items():
             c1.execute("INSERT INTO words VALUES (?,?)", (word, word_id))
@@ -478,18 +474,27 @@ class HTML_list:
         c1 = connection.cursor()
         qs = "(" + ",".join("?" * len(query)) + ")"
         query = tuple(query)
+
         # Search up the word_id of the words
         c1.execute(f'''SELECT word_id FROM words WHERE word IN {qs} AND NOT '' ''', (query))
         word_ids = c1.fetchall()
+        qs = "(" + ",".join("?" * len(word_ids)) + ")"          # Refresh another (?,?,...) as there might be words that is not in the database. The count has to be changed.
+
         # Process the output word_id as it is in the format of tuple
         word_ids = tuple(word_id for inner_tuple in word_ids for word_id in inner_tuple)
+
         # Fetch posting lists for page bodies
         c1.execute(f'''SELECT * FROM inverted_index WHERE word_id IN {qs}''', (word_ids))
-        postingslistbodies = c1.fetchall()           
+        postingslistbodies = c1.fetchall() 
+
         # Fetch posting lists for page bodies
         c1.execute(f'''SELECT * FROM inverted_title_index WHERE word_id IN {qs}''', (word_ids))
         postingslisttitles = c1.fetchall()                                                           # Non-processed output
         return postingslistbodies, postingslisttitles
+
+    # def term_weighting(self, )
+
+
 
     def cosinesimilarity(self, query):
         bodies, titles = self.retrieve()  # Assuming self.retrieve() is already defined
@@ -501,6 +506,7 @@ class HTML_list:
         # Step 2: Create a term-document matrix
         term_document_matrix = {}
         for posting in bodies + titles:
+
             document_id = posting[0]
             term_frequency = posting[1]
             term = posting[2]
@@ -537,10 +543,16 @@ class HTML_list:
         c1 = connection.cursor()
         c1.execute(f"SELECT * FROM {tablename}")
         words = c1.fetchall()
-        for word in words:
+        for word in words[:100]:
             print(word)
 
-    
+    def dbtemptest(self, filename, word_ids):
+        connection = sqlite3.connect(filename)
+        c1 = connection.cursor()
+        qs = "(" + ",".join("?" * len(word_ids)) + ")"
+        c1.execute(f'''SELECT page_freq FROM inverted_index WHERE word_id IN {qs}''', (word_ids))
+        page_freq = c1.fetchall()
+        return page_freq
 
 
 def testprogram():
