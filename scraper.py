@@ -133,6 +133,11 @@ class page:
         keyword_counts = self.keyword_counts
         return '; '.join(f"{k} {v}" for k, v in list(keyword_counts.items())[:n])
 
+    def returnwordfreqlist(self,n):
+        # return a list of keywords and values with length n
+        word_list = self.keyword_counts
+        return list(word_list.items())[:n]
+
     def sortwordfreq(self):                                             # For later use
         keyword_counts = self.keyword_counts
         sorted_keyword_counts = sorted(keyword_counts.items, key = lambda x:x[1], reverse = True)

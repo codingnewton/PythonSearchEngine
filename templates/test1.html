@@ -95,11 +95,14 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
+
+        /*toggle button*/
+        .extra-content {
+            display: none;
+        }
     </style>
 
-    <script>
-        //function getSimilarPages(index){}
-    </script>
+
 </head>
 <!--navigation bar-->
 <body>
@@ -132,6 +135,38 @@
                     <p><a href="{{link}}">{{link}}</a></p>
                 {% endfor %}
             </div>
+            
+
+            <!--show more pages button-->
+            <button onclick="toggleExtraContent('{{result.url}}')">get Similar pages</button>
+            <div id="extraContent{{result.url}}" class="extra-Content">
+                <p>
+                    {% for stuff in result.returnwordfreqlist(5)%}
+                        <li>
+                            <a href="/search" onclick="event.preventDefault(); document.getElementById('query').value = '{{ stuff[0].strip() }}'; document.getElementById('search-form').submit();">{{ stuff[0] }}</a>
+                        </li>
+                    {% endfor %}
+                </p>
+
+                <form id="search-form" action="/search" method="POST" style="display: none;">
+                    <input type="hidden" id="query" name="query">
+                </form>
+            </div>
+
+            <script>
+                var extraContent = document.getElementById("extraContent{{ result.url }}");
+                extraContent.style.display = "none";
+            </script>
+            <script>
+                function toggleExtraContent(url) {
+                    var extraContent = document.getElementById("extraContent" + url);
+                    if (extraContent.style.display === "none") {
+                        extraContent.style.display = "block";
+                    } else {
+                        extraContent.style.display = "none";
+                    }
+                }
+            </script>
 
             <hr>
         {% endfor %}
