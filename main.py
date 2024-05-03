@@ -20,7 +20,7 @@ def main():
 
     # Retrieve content of the database table
     # spider.dbtest(filename, tablename)
-    postingslistbodies, postingslisttitles = spider.queryretrieve(filename, ['comput', 'part'])
+    postingslistbodies, postingslisttitles = spider.queryretrieve(filename, ['comput', 'part', 'document'])
     print(f"Postings List of page body: {postingslistbodies}\nPostings List of page title: {postingslisttitles}")
 
     # Export the search results to a text file
