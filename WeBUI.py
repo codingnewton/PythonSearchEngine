@@ -54,6 +54,7 @@ def home():
 # Search page
 @app.route('/search', methods=['POST'])
 def search():
+    #query = request.args.get('query')
     query = request.form['query']
     log_query(query) # query is logged
 
@@ -64,14 +65,27 @@ def search():
     sorted_links = sorted(spider.HTML_list, key=lambda obj: pr[obj.url], reverse=True)
     
     #sorting/ranking operation
-    spider.export('return')
+    #spider.export('return')
 
     count = len(spider.HTML_list) #int(len(file.readlines())/7)
-
+    #if query:
 
     # Render search results
     #return render_template('results.html', content=sorted_list, query=query, numOfPage=count)
-    return render_template('test1.html', search_results=spider.HTML_list, count=count)
+        #return render_template('test1.html', search_results=spider.HTML_list, count=count, query=query)
+    return render_template('test1.html', search_results=spider.HTML_list, count=count, query=query)
 
+# Previous Query
+@app.route('/previous_queries')
+def get_previous_queries():
+    with open('query_log.txt', 'r') as file:
+        queries = file.readlines()
+        dates = []
+
+        for i, query in enumerate(queries):
+            queries[i] = query[21:]
+            dates.append(query[0:20])
+        return render_template('previous_queries.html', array=zip(dates, queries))
+    
 if __name__ == '__main__':
     app.run(debug=True)
