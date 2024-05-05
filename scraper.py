@@ -486,6 +486,7 @@ class HTML_list:
                 temppage.keyword_counts = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
                 temppage.child_link = child_link
                 temppage.parent_link = parent_link
+                
                 HTML_list_object.HTML_list.append(temppage)
         connection.close()
 
