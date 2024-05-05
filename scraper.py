@@ -136,12 +136,12 @@ class page:
             string: in the format of key1 freq1; key2 freq2; key3 freq3; ...
         """
         keyword_counts = self.keyword_counts
-        return '; '.join(f"{k} {v}" for k, v in list(keyword_counts.items())[:n])
+        return '; '.join(f"{k} {v}" for k, v in list(keyword_counts)[:n])
 
     def returnwordfreqlist(self,n):
         # return a list of keywords and values with length n
         word_list = self.keyword_counts
-        return list(word_list.items())[:n]
+        return list(word_list)[:n]
 
     def sortwordfreq(self):                                             # For later use
         keyword_counts = self.keyword_counts
@@ -497,6 +497,7 @@ class HTML_list:
         #         word_freq = item[3]
         #         child_link = item[4]
         #         parent_link = item[5]
+        #         url = item[6]
         #         self.HTML_list.append(page(page_title, last_mod_date, file_size, word_freq, child_link, parent_link))
 
         return result, HTML_list_object
