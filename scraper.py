@@ -67,8 +67,6 @@ class page:
                     self.parent_link.append(link)
     
 
-        
-
     def __repr__(self) -> str:
         pagetitle = f"Page Title: {self.title}\n" 
         url = f"URL: {self.url}\n"
