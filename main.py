@@ -18,10 +18,12 @@ def main():
     # Perform inverted indexing
     spider.dbinverted(filename)
 
-    # Retrieve content of the database table
-    # spider.dbtest(filename, tablename)
-    postingslistbodies, postingslisttitles = spider.queryretrieve(filename, ['comput', 'part', 'document'])
-    print(f"Postings List of page body: {postingslistbodies}\nPostings List of page title: {postingslisttitles}")
+    query = ['comput', 'part', 'document', 'final']
+    scores = spider.retrieve(filename, query)
+    result, HTML_list_object = spider.fileretrieve(filename, page_ids=scores.keys())
+    print(result)
+    HTML_list_object.export("print")
+
 
     # Export the search results to a text file
     spider.export('return')

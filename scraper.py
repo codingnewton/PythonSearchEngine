@@ -66,20 +66,6 @@ class page:
             if response.url.startswith(link.split(".htm")[0].strip()):
                 self.parent_link.append(link)
 
-    def __init__(self, title, last_mod_date, file_size, word_freq, child_link, parent_link):
-        self.title = title
-        self.body = ""
-        self.url = ""
-        self.last_mod_date = last_mod_date
-        self.file_size = file_size
-        self.kw_freq = [] # This should be an array or set of tuples
-        self.child_link = child_link
-        self.parent_link = parent_link
-        self.link_queue = []
-        self.stemmed = []
-        self.keyword_counts = word_freq # wordfreq() has to be executed to store this
-        self.page_title_kword = {}
-
     def __repr__(self) -> str:
         pagetitle = f"Page Title: {self.title}\n" 
         url = f"URL: {self.url}\n"
@@ -492,7 +478,14 @@ class HTML_list:
                 c1.execute("SELECT word_freq FROM forward_index WHERE page_id=?", (page_id,))
                 word_freq = json.loads(c1.fetchone()[0])
                 result[page_id] = (page_title, last_mod_date, file_size, word_freq, child_link, parent_link)
-                HTML_list_object.HTML_list.append(page(page_title, last_mod_date, file_size, word_freq, child_link, parent_link))
+                temppage = page()
+                temppage.title = page_title
+                temppage.last_mod_date = last_mod_date
+                temppage.file_size = file_size
+                temppage.keyword_counts = word_freq
+                temppage.child_link = child_link
+                temppage.parent_link = parent_link
+                HTML_list_object.HTML_list.append(temppage)
         connection.close()
 
         # for items in result.values():
