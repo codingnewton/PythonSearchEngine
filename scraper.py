@@ -66,6 +66,20 @@ class page:
             if response.url.startswith(link.split(".htm")[0].strip()):
                 self.parent_link.append(link)
 
+    def __init__(self, title, last_mod_date, file_size, word_freq, child_link, parent_link):
+        self.title = title
+        self.body = ""
+        self.url = ""
+        self.last_mod_date = last_mod_date
+        self.file_size = file_size
+        self.kw_freq = [] # This should be an array or set of tuples
+        self.child_link = child_link
+        self.parent_link = parent_link
+        self.link_queue = []
+        self.stemmed = []
+        self.keyword_counts = word_freq # wordfreq() has to be executed to store this
+        self.page_title_kword = {}
+
     def __repr__(self) -> str:
         pagetitle = f"Page Title: {self.title}\n" 
         url = f"URL: {self.url}\n"
@@ -442,7 +456,7 @@ class HTML_list:
         """
         pass
 
-    def fileretrieve(self, filename, url):
+    def fileretrieve(self, filename, url = None, page_ids = None):
         """ Get the information of an url from the database from generating the pages
 
         Args:
@@ -454,21 +468,45 @@ class HTML_list:
         """
         connection = sqlite3.connect(filename)
         c1 = connection.cursor()
-        c1.execute("SELECT page_id FROM urls WHERE url=?", (url))
-        page_id = c1.fetchone()
-        c1.execute("SELECT * FROM content WHERE page_id=?", (page_id))
-        content = c1.fetchall()
-        for data_tuple in content:
-            page_title = data_tuple[2]
-            last_mod_date = data_tuple[3]
-            file_size = data_tuple[4]
-            child_link = json.load(data_tuple[5])
-            parent_link = json.load(data_tuple[6])
-        c1.execute("SELECT word_freq FROM forward_index WHERE page_id=?",(page_id))
-        word_freq = json.load(c1.fetchall())
+        if (page_ids == None and url == None) or (page_ids == True and url == True):
+            TypeError(r"Either only 'url' or only 'page_id' is inputted into function parameter")
+            pass
+        if url == True:
+            qs = "(" + ",".join("?" * len(url)) + ")"
+            c1.execute(f"SELECT page_id FROM urls WHERE url={qs}", (url,))
+            page_ids = c1.fetchone()
+        
+        result = {}
+        HTML_list_object = HTML_list()
 
+        for page_id in page_ids:
+            c1.execute("SELECT * FROM content WHERE page_id=?", (page_id,))
+            content = c1.fetchone()
+            if content:
+                page_title = content[2]
+                last_mod_date = content[3]
+                file_size = content[4]
+                child_link = json.loads(content[5])
+                parent_link = json.loads(content[6])
+
+                c1.execute("SELECT word_freq FROM forward_index WHERE page_id=?", (page_id,))
+                word_freq = json.loads(c1.fetchone()[0])
+                result[page_id] = (page_title, last_mod_date, file_size, word_freq, child_link, parent_link)
+                HTML_list_object.HTML_list.append(page(page_title, last_mod_date, file_size, word_freq, child_link, parent_link))
         connection.close()
-        return page_title, last_mod_date, file_size, word_freq, child_link, parent_link
+
+        # for items in result.values():
+        #     for item in items:
+        #         page_title = item[0]
+        #         last_mod_date = item[1]
+        #         file_size = item[2]
+        #         word_freq = item[3]
+        #         child_link = item[4]
+        #         parent_link = item[5]
+        #         self.HTML_list.append(page(page_title, last_mod_date, file_size, word_freq, child_link, parent_link))
+
+        return result, HTML_list_object
+        
 
     def queryretrieve(self, filename, query):
         f"""Retrieve the inverted index of query terms from {filename} and output a 2D array ready for cosine similarity processing
@@ -503,16 +541,17 @@ class HTML_list:
         postingslisttitles = c1.fetchall()                                                          # Non-processed output
 
         connection.close()
-        return postingslistbodies, postingslisttitles
+        return postingslistbodies, postingslisttitles, word_ids
 
 
-    def vector_space(self, filename, postingslistbodies, postingslisttitles):
+    def vector_space(self, filename, postingslistbodies, postingslisttitles, query_word_ids):
         """Generate Vector Space for both pages' bodies and titles
 
         Args:
+            filename (string): filename/filepath
             postingslistbodies (_tuple_): posting list of page bodies extracted from queryretrieve()
             postingslisttitles (_tuple_): posting list of page titles extracted from queryretrieve()
-            filename (string): filename/filepath
+            query_word_ids (_list_): the list of query terms
 
         Returns:
             _dictionary_: Vector Space Model: dict_key is page_id, dict_values is a weighted_vector (list of weighted_terms) of each page 
@@ -523,9 +562,11 @@ class HTML_list:
         c1.execute('''SELECT COUNT(*) FROM urls''')
         N = c1.fetchone()                                                       # N is the number of documents/pages in collectioin
         N = N[0]
+
+        vector_dim = len(query_word_ids)
+
         # Weigted Vectors in page bodies
         weighted_vector_bodies = {}                                             # A dictionary containing keys of page id, and query term weighting
-        word_count = 0                                                          # For knowing which word_id we are working on, for maintaining the shape of the vector space model. 
         for word_id, tf_dict in postingslistbodies:                             # For each word (word_id) of the query
             tf_dict = json.loads(tf_dict)
             df = len(tf_dict)
@@ -534,17 +575,11 @@ class HTML_list:
             for page_id, tf in tf_dict.items():                                         # For each page (page_id) of the word
                 term_weighting = tf * idf / tf_max
                 if page_id not in weighted_vector_bodies.keys():
-                    weighted_vector_bodies[page_id] = [0] * len(postingslistbodies)
-                weighted_vector_bodies[page_id][word_count] = term_weighting
-            word_count += 1
-            # page_ids_appeared_already = set( weighted_vector_bodies.keys())             # Appending 0 to  weighted_vector_bodies[page_id] if the page_id does not appeared in that query term
-            # page_ids_in_query_term = set(tf_dict.keys())
-            # page_ids_not_in_query_term = list(page_ids_appeared_already.difference(page_ids_in_query_term))
-            # for page_id in page_ids_not_in_query_term:
-            #      weighted_vector_bodies[page_id].append(0)
+                    weighted_vector_bodies[page_id] = [0] * vector_dim
+                weighted_vector_bodies[page_id][query_word_ids.index(word_id)] = term_weighting
+
         # Weigted Vectors in page titles
         weighted_vector_titles = {}                                             # A dictionary containing keys of page id, and query term weighting
-        word_count = 0                                                          # For knowing which word_id we are working on, for maintaining the shape of the vector space model. 
         for word_id, tf_dict in postingslisttitles:                             # For each word (word_id) of the query
             tf_dict = json.loads(tf_dict)
             df = len(tf_dict)
@@ -553,45 +588,80 @@ class HTML_list:
             for page_id, tf in tf_dict.items():                                         # For each page (page_id) of the word
                 term_weighting = tf * idf / tf_max
                 if page_id not in weighted_vector_titles.keys():
-                    weighted_vector_titles[page_id] = [0] * len(postingslisttitles)
-                weighted_vector_titles[page_id][word_count] = term_weighting
-            word_count += 1
-            # page_ids_appeared_already = set(weighted_vector_titles.keys())             # Appending 0 to weighted_vector_titles[page_id] if the page_id does not appeared in that query term
-            # page_ids_in_query_term = set(tf_dict.keys())
-            # page_ids_not_in_query_term = list(page_ids_appeared_already.difference(page_ids_in_query_term))
-            # for page_id in page_ids_not_in_query_term:
-            #     weighted_vector_titles[page_id].append(0)
+                    weighted_vector_titles[page_id] = [0] * vector_dim
+                weighted_vector_titles[page_id][query_word_ids.index(word_id)] = term_weighting
+
         connection.close()
         return weighted_vector_bodies, weighted_vector_titles
     
-    def cossim(self, weight_vector_bodies, query, query_weighted=None):
+    def cossim(self, weighted_vector_bodies, weighted_vector_titles, query, query_weights=None):
         """_summary_
 
         Args:
             weight_vector_bodies (_dict_): key is page_id, value is weighted_vector (list of terms weighting)
             weighted_vector_titles (_type_):  key is page_id, value is weighted_vector (list of terms weighting)
             query (list): list of query term (words, not word_id)
-            query_weighted (list, optional): Weighting of each individual term. Defaults to None.
+            query_weights (list, optional): Weighting of each individual term. Defaults to None.
 
         Returns:
             dictionary: Similarity scores between the query and each document. dict_key is page_id (STRING), dict_values is a similarity score
-        """
-        if query_weighted == None:
-            query_weighted = np.ones(len(query))
-        query_vector = query_weighted
-        scores = {}
-        for page_id, vector in weight_vector_bodies.items():
+        """    
+        if query_weights == None:
+            query_weights = np.ones(len(query))
+        query_vector = query_weights
+    
+        # Bodies
+        bodies_scores = {}
+        for page_id, vector in weighted_vector_bodies.items():
             dot_product = np.dot(vector, query_vector)
             norm_vector = np.linalg.norm(vector)
             norm_query_vector = np.linalg.norm(query_vector)
             similarity = dot_product / (norm_vector * norm_query_vector)
-            print(similarity)
-            if page_id not in scores.keys():
-                scores[page_id] = 0
-            scores[page_id] += similarity
+            if page_id not in bodies_scores.keys():
+                bodies_scores[page_id] = 0
+            bodies_scores[page_id] += similarity
         # For returning sorted dictionary
-        scores = {k: v for k, v in sorted(scores.items(), key = lambda x: x[1], reverse = True)}
+        bodies_scores = {k: v for k, v in sorted(bodies_scores.items(), key = lambda x: x[1], reverse = True)}
+        
+        # Titles
+        titles_scores = {}
+        
+        for page_id, vector in weighted_vector_titles.items():
+            dot_product = np.dot(vector, query_vector)
+            norm_vector = np.linalg.norm(vector)
+            norm_query_vector = np.linalg.norm(query_vector)
+            similarity = dot_product / (norm_vector * norm_query_vector)
+            if page_id not in titles_scores.keys():
+                titles_scores[page_id] = 0
+            titles_scores[page_id] += similarity
+        # For returning sorted dictionary
+        titles_scores = {k: v for k, v in sorted(titles_scores.items(), key = lambda x: x[1], reverse = True)}
+        all_page_ids = set(bodies_scores.keys()) | set(titles_scores.keys())
+        combined_scores = {}
+        for page_id in all_page_ids:
+            body_score = bodies_scores.get(page_id, 0)
+            title_score = titles_scores.get(page_id, 0)
+            combined_score = (body_score * 1 + title_score * 24) / 25
+            combined_scores[int(page_id)] = combined_score
+        combined_scores = dict(sorted(combined_scores.items(), key=lambda x: x[1], reverse=True))
+        return combined_scores
+
+    def retrieve(self, filename, query, query_weights = None):
+        """Calculating the similarity score of related pages and query based on cosine similarity and tf/idf
+
+        Args:
+            filename (string): filename/filepath
+            query (list): the list of query terms 
+            query_weights (list, optional): Weighting of each individual term. Defaults to None.
+
+        Returns:
+            dictionary: a dictionary of similarity scores. keys are 'page_id', values are scores. (Sorted in descending order of values.)
+        """
+        postingslistbodies, postingslisttitles, query_word_ids = self.queryretrieve(filename, query)
+        weighted_vector_bodies, weighted_vector_titles = self.vector_space(filename, postingslistbodies, postingslisttitles, query_word_ids)
+        scores = self.cossim(weighted_vector_bodies, weighted_vector_titles, query, query_weights)
         return scores
+
 
     def dbtest(self, filename, tablename):
         """ Print out all items of a table from a .db file.
