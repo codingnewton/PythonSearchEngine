@@ -33,7 +33,7 @@ class page:
         self.keyword_counts = {} # wordfreq() has to be executed to store this
         self.page_title_kword = {}
     
-    def __init__(self, url): # The scraping process
+    def __init__(self, url = None): # The scraping process
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'lxml')
         self.body = soup.find('body').get_text()
@@ -482,7 +482,7 @@ class HTML_list:
                 temppage.title = page_title
                 temppage.last_mod_date = last_mod_date
                 temppage.file_size = file_size
-                temppage.keyword_counts = word_freq
+                temppage.keyword_counts = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
                 temppage.child_link = child_link
                 temppage.parent_link = parent_link
                 HTML_list_object.HTML_list.append(temppage)
