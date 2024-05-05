@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request
-import re
+from flask import Flask, render_template, request, redirect
+import os
 from scraper import page, HTML_list
 import datetime
 
@@ -86,6 +86,60 @@ def get_previous_queries():
             queries[i] = query[21:]
             dates.append(query[0:20])
         return render_template('previous_queries.html', array=zip(dates, queries))
+
+@app.route('/clear_queries', methods=['POST'])
+def clear_queries():
+    # Specify the path to the text file
+    file_path = "query_log.txt"
+    print(request.form['query_index'])
+    # decide which mode (clear all or specific item)
+    try:
+        print(request.form['query_index'])
+        query_index = int(request.form['query_index'])
+    except:
+        query_index = -1 #Clear all mode
+
+    # Check if the file exists
+    if os.path.exists(file_path):
+
+        with open(file_path, 'r') as f:
+            lines = f.readlines()
+
+        # Remove the line at the specified index
+        if 0 <= query_index < len(lines):
+            del lines[query_index]
+
+        # Write the updated lines back to the file
+        with open(file_path, 'w') as f:
+            f.writelines(lines)
+
+    # Redirect to the previous queries page or any other desired page
+    return redirect('/previous_queries')
+
+@app.route('/clear_query', methods=['POST'])
+def clear_query():    
+    # Specify the path to the text file
+    file_path = "query_log.txt"
+    # decide which mode (clear all or specific item)
+    query_index = int(request.form['query_index'])
+
+    print(query_index)
+    # Check if the file exists
+    if os.path.exists(file_path):
+
+            with open(file_path, 'r') as f:
+                lines = f.readlines()
+
+        # Remove the line at the specified index
+            if 0 <= query_index < len(lines):
+                del lines[query_index]
+
+        # Write the updated lines back to the file
+            with open(file_path, 'w') as f:
+                f.writelines(lines)
+
+    # Redirect to the previous queries page or any other desired page
+    return redirect('/previous_queries')
     
 if __name__ == '__main__':
     app.run(debug=True)
