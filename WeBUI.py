@@ -91,7 +91,7 @@ def get_previous_queries():
 def clear_queries():
     # Specify the path to the text file
     file_path = "query_log.txt"
-    print(request.form['query_index'])
+
     # decide which mode (clear all or specific item)
     try:
         print(request.form['query_index'])
@@ -102,16 +102,9 @@ def clear_queries():
     # Check if the file exists
     if os.path.exists(file_path):
 
-        with open(file_path, 'r') as f:
-            lines = f.readlines()
-
-        # Remove the line at the specified index
-        if 0 <= query_index < len(lines):
-            del lines[query_index]
-
-        # Write the updated lines back to the file
+        # Clear the content of the file by opening it in write mode
         with open(file_path, 'w') as f:
-            f.writelines(lines)
+            f.truncate(0)  # This truncates the file to 0 bytes
 
     # Redirect to the previous queries page or any other desired page
     return redirect('/previous_queries')
