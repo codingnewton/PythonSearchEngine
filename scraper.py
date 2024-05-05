@@ -9,9 +9,13 @@ import sqlite3
 import json
 import datetime
 import dateutil.parser
-nltk.download('punkt')
 import copy
 import numpy as np
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except:
+    nltk.download('punkt')
 
 class page:
     crawled_url = set()
