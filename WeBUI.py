@@ -2,9 +2,12 @@ from flask import Flask, render_template, request, redirect
 import os
 from scraper import page, HTML_list
 import datetime
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
 
 app = Flask(__name__)
 spider = HTML_list()
+FILENAME = "indexertest.db"
 
 def calculate_pagerank(web_graph, damping_factor=0.85, max_iterations=100, epsilon=1e-8):
     num_pages = len(web_graph) + 1
@@ -39,14 +42,28 @@ def log_query(query):
     with open("query_log.txt", "a") as f:
         f.write(f"{timestamp}: {query}\n")
 
+def stopstem(text): # stemming and stopword removal
+    stemmer = PorterStemmer()
+    words = word_tokenize(text)                                     # Tokenizing
+    punct = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
+    stopwords = open('stopwords.txt').read().splitlines()
+    for word in words:
+        if word in punct:
+            words.remove(word)
+            continue
+        elif word in stopwords:                                     # Stopword Removal
+            words.remove(word)
+            continue
+    stemmed = [stemmer.stem(word) for word in words]
+    return stemmed
 # Home page
 @app.route('/')
 def home():
     spider.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 300)
-    filename = "indexertest.db"
-    spider.createdb(filename)
-    spider.dbforward(filename)
-    spider.dbinverted(filename)
+
+    spider.createdb(FILENAME)
+    spider.dbforward(FILENAME)
+    spider.dbinverted(FILENAME)
 
     return render_template('index.html')
 
@@ -56,23 +73,26 @@ def search():
     #query = request.args.get('query')
     query = request.form['query']
     log_query(query) # query is logged
+    #print(type(query))
+    query_refined = stopstem(query)
+    print(query_refined)
+
+    #sort by similarity
+    scores = spider.retrieve(FILENAME, query_refined)
+    _, HTML_list_object = spider.fileretrieve(FILENAME, page_ids=scores.keys())
 
     # Page Rank the Spider.HTML
-    web_graph = spider.create_web_graph()
-    pr = calculate_pagerank(web_graph)
-    sorted_list = spider.HTML_list
-    sorted_links = sorted(spider.HTML_list, key=lambda obj: pr[obj.url], reverse=True)
+    #web_graph = spider.create_web_graph()
+    #pr = calculate_pagerank(web_graph)
+    #sorted_list = spider.HTML_list
+    #sorted_links = sorted(spider.HTML_list, key=lambda obj: pr[obj.url], reverse=True)
     
     #sorting/ranking operation
-    #spider.export('return')
 
-    count = len(spider.HTML_list) #int(len(file.readlines())/7)
-    #if query:
+    count = len(HTML_list_object.HTML_list) 
 
     # Render search results
-    #return render_template('results.html', content=sorted_list, query=query, numOfPage=count)
-        #return render_template('test1.html', search_results=spider.HTML_list, count=count, query=query)
-    return render_template('test1.html', search_results=spider.HTML_list, count=count, query=query)
+    return render_template('test1.html', search_results=HTML_list_object.HTML_list, count=count, query=query)
 
 # Previous Query
 @app.route('/previous_queries')

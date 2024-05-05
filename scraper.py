@@ -19,52 +19,53 @@ except:
 
 class page:
     crawled_url = set()
-    def __init__(self):
-        self.title = ""
-        self.body = ""
-        self.url = ""
-        self.last_mod_date = ""
-        self.file_size = 0
-        self.kw_freq = [] # This should be an array or set of tuples
-        self.child_link = []
-        self.parent_link = []
-        self.link_queue = []
-        self.stemmed = []
-        self.keyword_counts = {} # wordfreq() has to be executed to store this
-        self.page_title_kword = {}
-    
-    def __init__(self, url = None): # The scraping process
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'lxml')
-        self.body = soup.find('body').get_text()
-        self.child_link = []
-        self.parent_link = []
-        self.stemmed = []
-        self.keyword_counts = {}
-        self.page_title_kword = {}
-        
-        # Extract title, url, last mod date and file size
-        self.title = soup.find('title').text
-        self.url = url
-        if response.status_code == 200: #successful => 200
-            self.file_size = len(response.content)
-            self.last_mod_date = response.headers.get('last-modified')
-        
-        # handling <a> tags and extract parent and children link
-        link_tags = soup.find_all("a")
-        links = [link.get('href') for link in link_tags]
-        full_links = [urljoin(response.url, link) for link in links]
-        self.link_queue = [full_link for full_link in full_links]
-        url_cleaned = response.url.split(".htm")[0].strip()
+    def __init__(self, url=None):
+        if url == None:
+            self.title = ""
+            self.body = ""
+            self.url = ""
+            self.last_mod_date = ""
+            self.file_size = 0
+            self.kw_freq = [] # This should be an array or set of tuples
+            self.child_link = []
+            self.parent_link = []
+            self.link_queue = []
+            self.stemmed = []
+            self.keyword_counts = {} # wordfreq() has to be executed to store this
+            self.page_title_kword = {}
+        else:
+            response = requests.get(url)
+            soup = BeautifulSoup(response.text, 'lxml')
+            self.body = soup.find('body').get_text()
+            self.child_link = []
+            self.parent_link = []
+            self.stemmed = []
+            self.keyword_counts = {}
+            self.page_title_kword = {}
+            
+            # Extract title, url, last mod date and file size
+            self.title = soup.find('title').text
+            self.url = url
+            if response.status_code == 200: #successful => 200
+                self.file_size = len(response.content)
+                self.last_mod_date = response.headers.get('last-modified')
+            
+            # handling <a> tags and extract parent and children link
+            link_tags = soup.find_all("a")
+            links = [link.get('href') for link in link_tags]
+            full_links = [urljoin(response.url, link) for link in links]
+            self.link_queue = [full_link for full_link in full_links]
+            url_cleaned = response.url.split(".htm")[0].strip()
 
-        for link in full_links:
-            if link.startswith(url_cleaned):
-                if len(self.child_link) <=10:
-                    self.child_link.append(link)
-                else:
-                    pass
-            if response.url.startswith(link.split(".htm")[0].strip()):
-                self.parent_link.append(link)
+            for link in full_links:
+                if link.startswith(url_cleaned):
+                    if len(self.child_link) <=10:
+                        self.child_link.append(link)
+                    else:
+                        pass
+                if response.url.startswith(link.split(".htm")[0].strip()):
+                    self.parent_link.append(link)
+    
 
     def __repr__(self) -> str:
         pagetitle = f"Page Title: {self.title}\n" 
@@ -448,6 +449,7 @@ class HTML_list:
         Args:
             filename (string): filename/filepath
             url (string): the url of the page you want to fetch 
+            page_ids (list): list of string of page_id of pages we want to display in the search result
 
         Returns:
             page_title ():
@@ -482,9 +484,10 @@ class HTML_list:
                 temppage.title = page_title
                 temppage.last_mod_date = last_mod_date
                 temppage.file_size = file_size
-                temppage.keyword_counts = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
+                temppage.keyword_counts = dict(sorted(word_freq.items(), key=lambda x: x[1], reverse=True))
                 temppage.child_link = child_link
                 temppage.parent_link = parent_link
+                
                 HTML_list_object.HTML_list.append(temppage)
         connection.close()
 
@@ -496,6 +499,7 @@ class HTML_list:
         #         word_freq = item[3]
         #         child_link = item[4]
         #         parent_link = item[5]
+        #         url = item[6]
         #         self.HTML_list.append(page(page_title, last_mod_date, file_size, word_freq, child_link, parent_link))
 
         return result, HTML_list_object
