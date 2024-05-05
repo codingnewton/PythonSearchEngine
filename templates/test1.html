@@ -8,7 +8,7 @@
             margin: 0;
             padding: 0;
         }
-
+        /* Preparation on the navigation bar */
         .navbar {
             position: fixed;
             top: 0;
@@ -29,6 +29,7 @@
             cursor: pointer;
         }
 
+        /* content display */
         .content {
             margin-top: 50px;
             padding: 20px;
@@ -57,6 +58,7 @@
             font-size: 12px;
         }
 
+        /*search bar*/
         .search-bar {
             display: flex;
             align-items: center;
@@ -70,27 +72,51 @@
             border-radius: 4px;
         }
 
+        /*reserved for the "get similar page" feature*/
         .similar-pages-button {
             margin-top: 10px;
         }
+
+        /*Drop down list*/
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #25f700;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /*toggle button*/
+        .extra-content {
+            display: none;
+        }
     </style>
 
-    <script>
-        //function getSimilarPages(index){}
-    </script>
+
 </head>
 <!--navigation bar-->
 <body>
     <div class="navbar">
         <h1 class="navbar-title"><a href="/">Search Engine</a></h1>
-        <form class="search-bar" action="/search" method="GET">
+        <form class="search-bar" action="/search" method="post">
             <input class="search-input" type="text" name="query" placeholder="Search..." required>
             <button type="submit">Search</button>
         </form>
+        <a href="/previous_queries"><button>View Previous Queries</button></a>
     </div>
 
     <div class="content">
-        <h1>{{count}} Results found</h1>
+        <h1>{{count}} Results found for query {{query}}</h1>
 
         {% for result in search_results %}
             <div class="result">
@@ -109,6 +135,38 @@
                     <p><a href="{{link}}">{{link}}</a></p>
                 {% endfor %}
             </div>
+            
+
+            <!--show more pages button-->
+            <button onclick="toggleExtraContent('{{result.url}}')">get Similar pages</button>
+            <div id="extraContent{{result.url}}" class="extra-Content">
+                <p>
+                    {% for stuff in result.returnwordfreqlist(5)%}
+                        <li>
+                            <a href="/search" onclick="event.preventDefault(); document.getElementById('query').value = '{{ stuff[0].strip() }}'; document.getElementById('search-form').submit();">{{ stuff[0] }}</a>
+                        </li>
+                    {% endfor %}
+                </p>
+
+                <form id="search-form" action="/search" method="POST" style="display: none;">
+                    <input type="hidden" id="query" name="query">
+                </form>
+            </div>
+
+            <script>
+                var extraContent = document.getElementById("extraContent{{ result.url }}");
+                extraContent.style.display = "none";
+            </script>
+            <script>
+                function toggleExtraContent(url) {
+                    var extraContent = document.getElementById("extraContent" + url);
+                    if (extraContent.style.display === "none") {
+                        extraContent.style.display = "block";
+                    } else {
+                        extraContent.style.display = "none";
+                    }
+                }
+            </script>
 
             <hr>
         {% endfor %}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Previous Queries</title>
+</head>
+<body>
+    <h1>Previous Queries</h1>
+
+    <form action="/clear_queries" method="post">
+        <input type="submit" value="Clear Queries">
+    </form>
+
+    <ul>
+        {% for date, query in array %}
+            <form action="/clear_query" method="POST">
+                <li>{{date}}<a href="/search" onclick="event.preventDefault(); document.getElementById('query').value = '{{ query.strip() }}'; document.getElementById('search-form').submit();">{{ query }}</a></li>
+                <input type="hidden" name="query_index" value="{{ loop.index - 1 }}">
+                <button type="submit">Clear</button>
+            </form>
+        {% endfor %}
+    </ul>
+
+    <form id="search-form" action="/search" method="POST" style="display: none;">
+        <input type="hidden" id="query" name="query">
+    </form>
+
+    <!--Go back button-->
+    <button onclick ="goBack()">Go back</button>
+    <script>
+        function goBack(){
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
