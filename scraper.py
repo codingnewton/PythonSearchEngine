@@ -471,6 +471,7 @@ class HTML_list:
             c1.execute("SELECT * FROM content WHERE page_id=?", (page_id,))
             content = c1.fetchone()
             if content:
+                url = content[1]
                 page_title = content[2]
                 last_mod_date = content[3]
                 file_size = content[4]
@@ -485,9 +486,9 @@ class HTML_list:
                 temppage.last_mod_date = last_mod_date
                 temppage.file_size = file_size
                 temppage.keyword_counts = dict(sorted(word_freq.items(), key=lambda x: x[1], reverse=True))
+                temppage.url = url
                 temppage.child_link = child_link
                 temppage.parent_link = parent_link
-                
                 HTML_list_object.HTML_list.append(temppage)
         connection.close()
 
