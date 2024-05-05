@@ -457,6 +457,8 @@ class HTML_list:
             parent_link = json.load(data_tuple[6])
         c1.execute("SELECT word_freq FROM forward_index WHERE page_id=?",(page_id))
         word_freq = json.load(c1.fetchall())
+
+        connection.close()
         return page_title, last_mod_date, file_size, word_freq, child_link, parent_link
 
     def queryretrieve(self, filename, query):
@@ -467,7 +469,7 @@ class HTML_list:
             query (list): list of strings (query terms)
 
         Returns:
-            2D array: Posting list for cosine similarity processing
+            _2Darray_: Posting list for cosine similarity processing
         """
         # Format preparation before sending the query into .db file
         connection = sqlite3.connect(filename)
@@ -489,48 +491,98 @@ class HTML_list:
 
         # Fetch posting lists for page bodies
         c1.execute(f'''SELECT * FROM inverted_title_index WHERE word_id IN {qs}''', (word_ids))
-        postingslisttitles = c1.fetchall()                                                           # Non-processed output
+        postingslisttitles = c1.fetchall()                                                          # Non-processed output
+
+        connection.close()
         return postingslistbodies, postingslisttitles
 
-    # def term_weighting(self, )
 
+    def vector_space(self, filename, postingslistbodies, postingslisttitles):
+        """Generate Vector Space for both pages' bodies and titles
 
+        Args:
+            postingslistbodies (_tuple_): posting list of page bodies extracted from queryretrieve()
+            postingslisttitles (_tuple_): posting list of page titles extracted from queryretrieve()
+            filename (string): filename/filepath
 
-    def cosinesimilarity(self, query):
-        bodies, titles = self.retrieve()  # Assuming self.retrieve() is already defined
+        Returns:
+            _dictionary_: Vector Space Model: dict_key is page_id, dict_values is a weighted_vector (list of weighted_terms) of each page 
+        """
+        # Term Weighting of terms in bodies
+        connection = sqlite3.connect(filename)
+        c1 = connection.cursor()
+        c1.execute('''SELECT COUNT(*) FROM urls''')
+        N = c1.fetchone()                                                       # N is the number of documents/pages in collectioin
+        N = N[0]
+        # Weigted Vectors in page bodies
+        weighted_vector_bodies = {}                                             # A dictionary containing keys of page id, and query term weighting
+        word_count = 0                                                          # For knowing which word_id we are working on, for maintaining the shape of the vector space model. 
+        for word_id, tf_dict in postingslistbodies:                             # For each word (word_id) of the query
+            tf_dict = json.loads(tf_dict)
+            df = len(tf_dict)
+            idf = np.log2(N/df)
+            tf_max = max(tf_dict.values())
+            for page_id, tf in tf_dict.items():                                         # For each page (page_id) of the word
+                term_weighting = tf * idf / tf_max
+                if page_id not in weighted_vector_bodies.keys():
+                    weighted_vector_bodies[page_id] = [0] * len(postingslistbodies)
+                weighted_vector_bodies[page_id][word_count] = term_weighting
+            word_count += 1
+            # page_ids_appeared_already = set( weighted_vector_bodies.keys())             # Appending 0 to  weighted_vector_bodies[page_id] if the page_id does not appeared in that query term
+            # page_ids_in_query_term = set(tf_dict.keys())
+            # page_ids_not_in_query_term = list(page_ids_appeared_already.difference(page_ids_in_query_term))
+            # for page_id in page_ids_not_in_query_term:
+            #      weighted_vector_bodies[page_id].append(0)
+        # Weigted Vectors in page titles
+        weighted_vector_titles = {}                                             # A dictionary containing keys of page id, and query term weighting
+        word_count = 0                                                          # For knowing which word_id we are working on, for maintaining the shape of the vector space model. 
+        for word_id, tf_dict in postingslisttitles:                             # For each word (word_id) of the query
+            tf_dict = json.loads(tf_dict)
+            df = len(tf_dict)
+            idf = np.log2(N/df)
+            tf_max = max(tf_dict.values())
+            for page_id, tf in tf_dict.items():                                         # For each page (page_id) of the word
+                term_weighting = tf * idf / tf_max
+                if page_id not in weighted_vector_titles.keys():
+                    weighted_vector_titles[page_id] = [0] * len(postingslisttitles)
+                weighted_vector_titles[page_id][word_count] = term_weighting
+            word_count += 1
+            # page_ids_appeared_already = set(weighted_vector_titles.keys())             # Appending 0 to weighted_vector_titles[page_id] if the page_id does not appeared in that query term
+            # page_ids_in_query_term = set(tf_dict.keys())
+            # page_ids_not_in_query_term = list(page_ids_appeared_already.difference(page_ids_in_query_term))
+            # for page_id in page_ids_not_in_query_term:
+            #     weighted_vector_titles[page_id].append(0)
+        connection.close()
+        return weighted_vector_bodies, weighted_vector_titles
     
-        # Step 1: Extract the document IDs from the postings
-        body_document_ids = [i[0] for i in bodies]
-        title_document_ids = [j[0] for j in titles]
-    
-        # Step 2: Create a term-document matrix
-        term_document_matrix = {}
-        for posting in bodies + titles:
+    def cossim(self, weight_vector_bodies, query, query_weighted=None):
+        """_summary_
 
-            document_id = posting[0]
-            term_frequency = posting[1]
-            term = posting[2]
-    
-            if document_id not in term_document_matrix:
-                term_document_matrix[document_id] = {}
-    
-            term_document_matrix[document_id][term] = term_frequency
-    
-        # Step 3: Calculate the cosine similarity
-        query_vector = np.array([query.count(term) for term in query])
-    
-        cosine_similarity_scores = []
-        for document_id, document_terms in term_document_matrix.items():
-            document_vector = np.array([document_terms.get(term, 0) for term in query])
-    
-            dot_product = np.dot(query_vector, document_vector)
-            query_norm = np.linalg.norm(query_vector)
-            document_norm = np.linalg.norm(document_vector)
-    
-            cosine_similarity = dot_product / (query_norm * document_norm)
-            cosine_similarity_scores.append((document_id, cosine_similarity))
-    
-        return cosine_similarity_scores
+        Args:
+            weight_vector_bodies (_dict_): key is page_id, value is weighted_vector (list of terms weighting)
+            weighted_vector_titles (_type_):  key is page_id, value is weighted_vector (list of terms weighting)
+            query (list): list of query term (words, not word_id)
+            query_weighted (list, optional): Weighting of each individual term. Defaults to None.
+
+        Returns:
+            dictionary: Similarity scores between the query and each document. dict_key is page_id (STRING), dict_values is a similarity score
+        """
+        if query_weighted == None:
+            query_weighted = np.ones(len(query))
+        query_vector = query_weighted
+        scores = {}
+        for page_id, vector in weight_vector_bodies.items():
+            dot_product = np.dot(vector, query_vector)
+            norm_vector = np.linalg.norm(vector)
+            norm_query_vector = np.linalg.norm(query_vector)
+            similarity = dot_product / (norm_vector * norm_query_vector)
+            print(similarity)
+            if page_id not in scores.keys():
+                scores[page_id] = 0
+            scores[page_id] += similarity
+        # For returning sorted dictionary
+        scores = {k: v for k, v in sorted(scores.items(), key = lambda x: x[1], reverse = True)}
+        return scores
 
     def dbtest(self, filename, tablename):
         """ Print out all items of a table from a .db file.
