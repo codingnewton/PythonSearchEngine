@@ -126,18 +126,24 @@
                 <p>Keyword frequency: {{result.returnwordfreq(10)}}</p>
             </div>
 
-            <div class="link">
+            
+            <div class="link">                
                 {% for link in result.parent_link %}
-                    <p><a href="{{link}}">{{link}}</a></p>
-                {% endfor %}
 
+                <li>Parent Links:</li><p><a href="{{link}}">{{link}}</a></p>
+                {% endfor %}
+            </div>
+
+            
+            <div class="link">
                 {% for link in result.child_link %}
-                    <p><a href="{{link}}">{{link}}</a></p>
+                <li>Child Link(s):</li> <p><a href="{{link}}">{{link}}</a></p>
                 {% endfor %}
             </div>
             
 
             <!--show more pages button-->
+            <!--
             <button onclick="toggleExtraContent('{{result.url}}')">get Similar pages</button>
             <div id="extraContent{{result.url}}" class="extra-Content">
                 <p>
@@ -166,8 +172,24 @@
                         extraContent.style.display = "none";
                     }
                 }
-            </script>
+            </script>-->
+            <button popovertarget="extraContent{{result.url}}">get Similar pages</button>
+            <div popover id="extraContent{{result.url}}" class="extra-Content">
+                <p>
+                    You might be interested in these keywords:
+                    {% for stuff in result.returnwordfreqlist(5)%}
+                        <li>
+                            <a href="/search" onclick="event.preventDefault(); document.getElementById('query').value = '{{ stuff[0].strip() }}'; document.getElementById('search-form').submit();">{{ stuff[0] }}</a>
+                        </li>
+                    {% endfor %}
+                </p>
 
+                <form id="search-form" action="/search" method="POST" style="display: none;">
+                    <input type="hidden" id="query" name="query">
+                </form>
+            </div>
+
+        
             <hr>
         {% endfor %}
     </div>
