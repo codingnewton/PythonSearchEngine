@@ -70,12 +70,9 @@ def home():
 # Search page
 @app.route('/search', methods=['POST'])
 def search():
-    #query = request.args.get('query')
     query = request.form['query']
     log_query(query) # query is logged
-    #print(type(query))
     query_refined = stopstem(query)
-    print(query_refined)
 
     #sort by similarity
     scores = spider.retrieve(FILENAME, query_refined)
