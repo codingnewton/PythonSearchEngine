@@ -13,9 +13,9 @@ def main():
     # print(scores.keys())
 
     result, HTML_list_object = spider.fileretrieve(filename, page_ids=scores.keys())
-    print(result)
+    # print(result)
 
-    HTML_list_object.export("print")
+    # HTML_list_object.export("print")
 
     # Export the search results to a text file
     # spider.export('HTML_list_object')

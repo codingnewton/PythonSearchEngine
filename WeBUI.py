@@ -12,7 +12,6 @@ FILENAME = "indexertest.db"
 def calculate_pagerank(web_graph, damping_factor=0.85, max_iterations=100, epsilon=1e-8):
     num_pages = len(web_graph) + 1
     initial_score = 1.0 / num_pages
-
     pagerank = {page: initial_score for page in web_graph}
     outgoing_links = {page: len(links) for page, links in web_graph.items() if links}
 

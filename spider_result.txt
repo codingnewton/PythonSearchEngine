@@ -1,364 +1,2079 @@
-Page Title: Dominion Tank Police Part 1 and 2 (1989)
-URL: 
-Last modification date: 2023-05-16 05:03:18 | Size of Page: 2792Bytes
-Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Page Title: Test page
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 603Bytes
+Keyword frequency: thi 1; test 1; page 1; a 1; crawler 1; befor 1; get 1; the 1; admiss 1; cse 1
 Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: The Final Countdown (1980)
-URL: 
-Last modification date: 2023-05-16 05:03:32 | Size of Page: 3837Bytes
-Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Rambo: First Blood Part II (1985)
-URL: 
-Last modification date: 2023-05-16 05:03:18 | Size of Page: 8604Bytes
-Keyword frequency: rambo 12; first 11; blood 8; part 5; ii 5; 1985 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Smokey and the Bandit Part 3 (1983)
-URL: 
-Last modification date: 2023-05-16 05:03:22 | Size of Page: 9575Bytes
-Keyword frequency: smokey 9; bandit 15; part 4; 3 4; 1983 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Reservoir Dogs (1992)
-URL: 
-Last modification date: 2023-05-16 05:03:22 | Size of Page: 11108Bytes
-Keyword frequency: reservoir 5; dog 5; 1992 5; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Dragonheart (1996)
-URL: 
-Last modification date: 2023-05-16 05:03:40 | Size of Page: 7828Bytes
-Keyword frequency: dragonheart 4; 1996 5; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Movie Index Page
-URL: 
-Last modification date: 2023-05-16 05:09:22 | Size of Page: 19541Bytes
-Keyword frequency: my 4; movi 4; list 1; back 4; main 2; dinosaur 1; planet 3; 2003 24; isl 1; man 3
-Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/1.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/2.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/3.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/4.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/5.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/6.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/7.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/8.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/9.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/10.html']
 Parent Links: []
 -------------------------------------------------------------------
-Page Title: UG
-URL: 
-Last modification date: 2023-05-16 05:03:46 | Size of Page: 4070Bytes
-Keyword frequency: program 16; inform 4; the 13; depart 5; comput 13; scienc 7; hkust 5; offer 3; degre 2; student 7
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse.htm']
+Page Title: CSE department of HKUST
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse.htm
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 392Bytes
+Keyword frequency: cse 1; depart 1; hkust 1; pg 1; admiss 2; ug 1; back 1; main 1
+Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse/PG.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse/UG.htm']
+Parent Links: []
 -------------------------------------------------------------------
 Page Title: PG
-URL: 
-Last modification date: 2023-05-16 05:03:46 | Size of Page: 3267Bytes
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse/PG.htm
+Last modification date: Tue, 16 May 2023 05:03:46 GMT | Size of Page: 3267Bytes
 Keyword frequency: pg 1; program 8; applic 7; admiss 8; postgradu 9; requir 6; have 2; complet 2; time 2; enter 1
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse.htm']
 -------------------------------------------------------------------
-Page Title: Airplane II: The Sequel (1982)
-URL: 
-Last modification date: 2023-05-16 05:03:24 | Size of Page: 7714Bytes
-Keyword frequency: airplan 10; ii 6; the 20; sequel 7; 1982 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Page Title: UG
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse/UG.htm
+Last modification date: Tue, 16 May 2023 05:03:46 GMT | Size of Page: 4070Bytes
+Keyword frequency: program 16; inform 4; the 13; depart 5; comput 13; scienc 7; hkust 5; offer 3; degre 2; student 7
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse.htm']
+-------------------------------------------------------------------
+Page Title: News
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news.htm
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 384Bytes
+Keyword frequency: new 1; bbc 1; news 2; cnn 1; back 1; main 1
+Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn.htm']
+Parent Links: []
+-------------------------------------------------------------------
+Page Title: BBC news
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc.htm
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 499Bytes
+Keyword frequency: bbc 1; news 1; fifth 1; nest 1; rare 1; bird 1; project 1; mp 1; urg 1; bt 1
+Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc1.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc2.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc3.htm']
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/news.htm']
+-------------------------------------------------------------------
+Page Title: BBC news1
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc1.htm
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 1649Bytes
+Keyword frequency: fifth 2; nest 6; rare 2; bird 4; project 3; a 2; introduc 1; prey 1; sky 1; north-east 1
+Child Links: []
+Parent Links: []
+-------------------------------------------------------------------
+Page Title: BBC news2
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc2.htm
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 2136Bytes
+Keyword frequency: mp 3; urg 2; bt 8; goonhilli 6; commit 2; a 4; cornish 1; continu 1; earth 1; satellit 2
+Child Links: []
+Parent Links: []
+-------------------------------------------------------------------
+Page Title: BBC news3
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc3.htm
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 3301Bytes
+Keyword frequency: west 10; ham 10; 2-1 1; blackburn 6; goal 5; teddi 1; sheringham 7; hayden 1; mullin 3; lift 1
+Child Links: []
+Parent Links: []
+-------------------------------------------------------------------
+Page Title: CNN news
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn.htm
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 448Bytes
+Keyword frequency: cnn 1; news 1; sauerkraut 1; capit 1; sweet 1; accordion 1; warm 1; 'may 1; caus 1; econom 1
+Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn1.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn2.htm']
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/news.htm']
+-------------------------------------------------------------------
+Page Title: CNN news1
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn1.htm
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 4427Bytes
+Keyword frequency: sauerkraut 4; capit 2; sweet 1; accordion 13; wishek 7; north 2; dakota 2; ap 1; -- 1; a 12
+Child Links: []
+Parent Links: []
+-------------------------------------------------------------------
+Page Title: CNN news2
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn2.htm
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 6009Bytes
+Keyword frequency: warm 4; 'may 1; caus 1; econom 4; chaos' 1; london 2; england 1; -- 3; climat 12; chang 12
+Child Links: []
+Parent Links: []
+-------------------------------------------------------------------
+Page Title: books
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 601Bytes
+Keyword frequency: book 1; articl 1; read 1; autom 1; keyword 1; classif 1; inform 1; retriev 1; gener 1; use 1
+Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books/book1.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/books/book2.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/books/book3.htm']
+Parent Links: []
+-------------------------------------------------------------------
+Page Title: book1
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/books/book1.htm
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 1617Bytes
+Keyword frequency: autom 1; keyword 2; classif 1; inform 3; retriev 5; thi 3; book 2; primarili 1; research 1; monograph 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm']
+-------------------------------------------------------------------
+Page Title: book2
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/books/book2.htm
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 2084Bytes
+Keyword frequency: gener 5; use 4; machine-read 3; data 11; base 9; thi 2; chapter 2; continu 2; coverag 2; inaugur 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm']
+-------------------------------------------------------------------
+Page Title: book3
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/books/book3.htm
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 1994Bytes
+Keyword frequency: a 7; note 1; pseudo-mathemat 1; relev 6; recent 1; number 1; articl 1; book 2; report 2; deal 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm']
+-------------------------------------------------------------------
+Page Title: Movie Index Page
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm
+Last modification date: Tue, 16 May 2023 05:09:22 GMT | Size of Page: 19541Bytes
+Keyword frequency: my 4; movi 4; list 1; back 4; main 2; dinosaur 1; planet 3; 2003 24; isl 1; man 3
+Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/1.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/2.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/3.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/4.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/5.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/6.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/7.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/8.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/9.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/10.html']
+Parent Links: []
+-------------------------------------------------------------------
+Page Title: Dinosaur Planet (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/1.html
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 3605Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: Ken Burns' America: Empire of the Air (1991)
-URL: 
-Last modification date: 2023-05-16 05:03:40 | Size of Page: 3769Bytes
+Page Title: Isle of Man TT 2004 Review (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/2.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 2868Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Character (1997)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/3.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 4008Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Paula Abdul's Get Up and Dance (1994)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/4.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 2820Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Rise and Fall of ECW (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/5.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 3928Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sick (1997)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/6.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 5243Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: 8 Man (1992)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/7.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 3498Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: What the #$*! Do We Know!? (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/8.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 4147Bytes
 Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
 Page Title: Class of Nuke 'Em High 2 (1991)
-URL: 
-Last modification date: 2023-05-16 05:03:44 | Size of Page: 7075Bytes
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/9.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 7075Bytes
 Keyword frequency: class 7; nuke 8; 'em 8; high 7; part 6; ii 4; subhumanoid 6; meltdown 5; 1991 4; now 2
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: A Killer Within (2004)
-URL: 
-Last modification date: 2023-05-16 05:03:22 | Size of Page: 8029Bytes
-Keyword frequency: a 8; killer 5; within 4; 2004 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Neon Genesis Evangelion: The End of Evangelion (1995)
-URL: 
-Last modification date: 2023-05-16 05:03:30 | Size of Page: 8900Bytes
-Keyword frequency: shin 6; seiki 7; evangelion 11; gekijô-ban 4; air/magokoro 4; wo 4; kimi 4; ni 4; 1997 4; now 2
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Invader Zim (2004)
-URL: 
-Last modification date: 2023-05-16 05:03:40 | Size of Page: 9570Bytes
-Keyword frequency: `` 24; invad 6; zim 13; '' 38; 2001 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: book2
-URL: 
-Last modification date: 2023-05-16 05:03:16 | Size of Page: 2084Bytes
-Keyword frequency: gener 5; use 4; machine-read 3; data 11; base 9; thi 2; chapter 2; continu 2; coverag 2; inaugur 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm']
--------------------------------------------------------------------
-Page Title: Mann (1999)
-URL: 
-Last modification date: 2023-05-16 05:03:32 | Size of Page: 6687Bytes
-Keyword frequency: mann 5; 1999 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: A Night at the Opera (1935)
-URL: 
-Last modification date: 2023-05-16 05:03:32 | Size of Page: 4111Bytes
-Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: BBC news2
-URL: 
-Last modification date: 2023-05-16 05:03:44 | Size of Page: 2136Bytes
-Keyword frequency: mp 3; urg 2; bt 8; goonhilli 6; commit 2; a 4; cornish 1; continu 1; earth 1; satellit 2
-Child Links: []
-Parent Links: []
--------------------------------------------------------------------
-Page Title: CNN news2
-URL: 
-Last modification date: 2023-05-16 05:03:44 | Size of Page: 6009Bytes
-Keyword frequency: warm 4; 'may 1; caus 1; econom 4; chaos' 1; london 2; england 1; -- 3; climat 12; chang 12
-Child Links: []
-Parent Links: []
--------------------------------------------------------------------
-Page Title: Adam-12: Season 1 (1968)
-URL: 
-Last modification date: 2023-05-16 05:03:22 | Size of Page: 3601Bytes
-Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Female Yakuza Tale (1973)
-URL: 
-Last modification date: 2023-05-16 05:03:34 | Size of Page: 6321Bytes
-Keyword frequency: yasagur 4; anego 6; den 6; sôkatsu 4; rinchi 4; 1973 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: BBC news3
-URL: 
-Last modification date: 2023-05-16 05:03:44 | Size of Page: 3301Bytes
-Keyword frequency: west 10; ham 10; 2-1 1; blackburn 6; goal 5; teddi 1; sheringham 7; hayden 1; mullin 3; lift 1
-Child Links: []
-Parent Links: []
--------------------------------------------------------------------
-Page Title: Henry: Portrait of a Serial Killer 2 (1996)
-URL: 
-Last modification date: 2023-05-16 05:03:28 | Size of Page: 3516Bytes
-Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Where Sleeping Dogs Lie (1992)
-URL: 
-Last modification date: 2023-05-16 05:03:20 | Size of Page: 5656Bytes
-Keyword frequency: where 4; sleep 4; dog 4; lie 5; 1992 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Fame (1980)
-URL: 
-Last modification date: 2023-05-16 05:03:22 | Size of Page: 8511Bytes
-Keyword frequency: fame 9; 1980 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: North by Northwest (1959)
-URL: 
-Last modification date: 2023-05-16 05:03:30 | Size of Page: 9712Bytes
-Keyword frequency: north 8; northwest 8; 1959 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Funny Face (1957)
-URL: 
-Last modification date: 2023-05-16 05:03:22 | Size of Page: 7988Bytes
-Keyword frequency: funni 5; face 6; 1957 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Touched by an Angel: Season 1 (1994)
-URL: 
-Last modification date: 2023-05-16 05:03:32 | Size of Page: 3937Bytes
-Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
 Page Title: Fighter (2001)
-URL: 
-Last modification date: 2023-05-16 05:03:16 | Size of Page: 13199Bytes
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/10.html
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 13199Bytes
 Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: Jade (1995)
-URL: 
-Last modification date: 2023-05-16 05:03:38 | Size of Page: 7977Bytes
-Keyword frequency: jade 3; 1995 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Animal (2004)
-URL: 
-Last modification date: 2023-05-16 05:03:32 | Size of Page: 4576Bytes
-Keyword frequency: anim 3; 2004 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Fatal Beauty (1987)
-URL: 
-Last modification date: 2023-05-16 05:03:20 | Size of Page: 6802Bytes
-Keyword frequency: fatal 4; beauti 4; 1987 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: book1
-URL: 
-Last modification date: 2023-05-16 05:03:16 | Size of Page: 1617Bytes
-Keyword frequency: autom 1; keyword 2; classif 1; inform 3; retriev 5; thi 3; book 2; primarili 1; research 1; monograph 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm']
--------------------------------------------------------------------
-Page Title: Nighthawks (1981)
-URL: 
-Last modification date: 2023-05-16 05:03:20 | Size of Page: 7979Bytes
-Keyword frequency: nighthawk 4; 1981 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: book3
-URL: 
-Last modification date: 2023-05-16 05:03:16 | Size of Page: 1994Bytes
-Keyword frequency: a 7; note 1; pseudo-mathemat 1; relev 6; recent 1; number 1; articl 1; book 2; report 2; deal 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm']
--------------------------------------------------------------------
-Page Title: Notre Musique (2004)
-URL: 
-Last modification date: 2023-05-16 05:03:16 | Size of Page: 10796Bytes
-Keyword frequency: notr 9; musiqu 10; 2004 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: The Agronomist (2004)
-URL: 
-Last modification date: 2023-05-16 05:03:26 | Size of Page: 6972Bytes
-Keyword frequency: the 22; agronomist 6; 2003 4; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Silk Stockings (1957)
-URL: 
-Last modification date: 2023-05-16 05:03:18 | Size of Page: 6617Bytes
-Keyword frequency: silk 4; stock 4; 1957 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
-Child Links: []
-Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
--------------------------------------------------------------------
-Page Title: Micki and Maude (1984)
-URL: 
-Last modification date: 2023-05-16 05:03:34 | Size of Page: 3691Bytes
+Page Title: Full Frame: Documentary Shorts (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/11.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 2700Bytes
 Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: Stuart Little 2 (2002)
-URL: 
-Last modification date: 2023-05-16 05:03:30 | Size of Page: 8171Bytes
-Keyword frequency: stuart 14; littl 19; 2 7; 2002 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Page Title: My Favorite Brunette (1947)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/12.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 6432Bytes
+Keyword frequency: my 7; favorit 6; brunett 5; 1947 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Lord of the Rings: The Return of the King: Extended Edition: Bonus Material (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/13.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 2997Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Nature: Antarctica (1982)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/14.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 3711Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Neil Diamond: Greatest Hits Live (1988)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/15.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 5415Bytes
+Keyword frequency: neil 6; diamond 6; greatest 4; hit 5; live 4; 1988 5; v 4; now 2; playingmovie/tv 1; newsmi 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Screamers (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/16.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 3737Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: 7 Seconds (2005)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/17.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 3521Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Immortal Beloved (1994)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/18.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 7583Bytes
+Keyword frequency: immort 5; belov 7; 1994 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: By Dawn's Early Light (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/19.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 2827Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Seeta Aur Geeta (1972)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/20.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 5856Bytes
+Keyword frequency: seeta 6; aur 6; geeta 5; 1972 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Strange Relations (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/21.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 6405Bytes
+Keyword frequency: my 5; beauti 4; son 4; 2001 4; tv 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Chump Change (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/22.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 6333Bytes
+Keyword frequency: chump 5; chang 5; 2001 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Clifford: Clifford Saves the Day! / Clifford's Fluffiest Friend Cleo (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/23.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 3844Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
 Page Title: My Bloody Valentine (1981)
-URL: 
-Last modification date: 2023-05-16 05:03:30 | Size of Page: 6894Bytes
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/24.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 6894Bytes
 Keyword frequency: my 6; bloodi 7; valentin 8; 1981 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
+Page Title: Inspector Morse 31: Death Is Now My Neighbour (1997)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/25.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 2660Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Never Die Alone (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/26.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 7213Bytes
+Keyword frequency: never 4; die 5; alon 4; 2004 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sesame Street: Elmo's World: The Street We Live On (1962)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/27.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 3821Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Lilo and Stitch (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/28.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 3863Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Boycott (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/29.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 3302Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Something's Gotta Give (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/30.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 9304Bytes
+Keyword frequency: someth 4; 's 14; got 5; ta 5; give 5; 2003 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Classic Albums: Meat Loaf: Bat Out of Hell (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/31.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 4787Bytes
+Keyword frequency: classic 4; album 4; meat 4; loaf 5; bat 4; out 4; hell 4; 1999 4; v 4; now 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: ABC Primetime: Mel Gibson's The Passion of the Christ (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/32.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 2716Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Aqua Teen Hunger Force: Vol. 1 (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/33.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 2759Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Ashtanga Yoga: Beginner's Practice with Nicki Doane (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/34.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 2702Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Ferngully 2: The Magical Rescue (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/35.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 6086Bytes
+Keyword frequency: ferngulli 7; 2 5; the 16; magic 6; rescu 4; 1998 4; v 4; now 4; playingmovie/tv 1; newsmi 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Lady Chatterley (1992)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/36.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 3839Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Zatoichi's Conspiracy (1973)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/37.html
+Last modification date: Tue, 16 May 2023 05:03:36 GMT | Size of Page: 6818Bytes
+Keyword frequency: shin 5; zatôichi 8; monogatari 5; kasama 5; chimatsuri 4; 1973 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Daydream Obsession (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/38.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 3745Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Love Reinvented (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/39.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 6494Bytes
+Keyword frequency: mour 5; est 5; à 7; réinvent 5; dix 4; histoir 4; d'amour 4; au 4; temp 4; du 4
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Pitcher and the Pin-Up (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/40.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 5819Bytes
+Keyword frequency: the 9; road 6; home 6; 2003 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Horror Vision (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/41.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 3793Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Searching for Paradise (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/42.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 6426Bytes
+Keyword frequency: search 5; paradis 4; 2002 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Silent Service (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/43.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 3683Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Spitfire Grill (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/44.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 7514Bytes
+Keyword frequency: the 15; spitfir 8; grill 4; 1996 7; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Love Letter (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/45.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 3511Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Rudolph the Red-Nosed Reindeer (1964)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/46.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 2849Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Bad and the Beautiful (1952)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/47.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 3892Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Justice League (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/48.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 3580Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Devo: The Complete Truth About De-evolution (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/49.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 2866Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: A Yank in the R.A.F. (1941)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/50.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 7217Bytes
+Keyword frequency: a 9; yank 5; r.a.f 4; 1941 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Jonah: A VeggieTales Movie: Bonus Material (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/51.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 2781Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Weather Underground (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/52.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 10792Bytes
+Keyword frequency: the 31; weather 10; underground 8; 2002 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Bonesetter (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/53.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 3566Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: We're Not Married (1952)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/54.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 5636Bytes
+Keyword frequency: we 4; 're 6; not 9; marri 5; 1952 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Jade (1995)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/55.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 7977Bytes
+Keyword frequency: jade 3; 1995 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Carandiru (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/56.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 2769Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Richard III (1995)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/57.html
+Last modification date: Tue, 16 May 2023 05:03:38 GMT | Size of Page: 7318Bytes
+Keyword frequency: richard 9; iii 4; 1995 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Dragonheart (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/58.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 7828Bytes
+Keyword frequency: dragonheart 4; 1996 5; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sex and the Beauties (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/59.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 6428Bytes
+Keyword frequency: sing 4; gam 5; diy 4; shut 4; 2004 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Libertine (1969)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/60.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 3873Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Ricky Martin: One Night Only (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/61.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 4172Bytes
+Keyword frequency: ricki 5; martin 5; one 4; night 4; onli 4; 1999 4; tv 5; now 2; playingmovie/tv 1; newsmi 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Ken Burns' America: Empire of the Air (1991)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/62.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 3769Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Crash Dive (1943)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/63.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 6958Bytes
+Keyword frequency: crash 5; dive 4; 1943 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Outside the Law (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/64.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 3775Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Lost in the Pershing Point Hotel (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/65.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 5762Bytes
+Keyword frequency: lost 4; persh 5; point 5; hotel 4; 2000 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Barbarian Queen 2 (1989)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/66.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 3663Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Vampire Journals (1997)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/67.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 6074Bytes
+Keyword frequency: vampir 13; journal 7; 1997 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Invader Zim (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/68.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 9570Bytes
+Keyword frequency: `` 24; invad 6; zim 13; '' 38; 2001 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: WWE: Armageddon 2003 (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/69.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 2996Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Tai Chi: The 24 Forms (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/70.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 3736Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Maya Lin: A Strong Clear Vision (1995)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/71.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 5590Bytes
+Keyword frequency: maya 9; lin 7; a 13; strong 4; clear 4; vision 4; 1994 4; now 2; playingmovie/tv 1; newsmi 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: At Home Among Strangers (1974)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/72.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 4027Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Davy Crockett: 50th Anniversary Double Feature (1954)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/73.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 2667Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: 6ixtynin9 (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/74.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 7152Bytes
+Keyword frequency: ruang 4; talok 5; 69 4; 1999 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Grind (1997)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/75.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 5651Bytes
+Keyword frequency: grind 3; 1997 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: I Love Lucy: Season 2 (1952)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/76.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 3530Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Congo (1995)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/77.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 7052Bytes
+Keyword frequency: congo 3; 1995 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Jingle All the Way (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/78.html
+Last modification date: Tue, 16 May 2023 05:03:40 GMT | Size of Page: 8021Bytes
+Keyword frequency: jingl 5; all 7; way 5; 1996 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Killing (1956)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/79.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 8474Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Winter Kills (1979)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/80.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 8822Bytes
+Keyword frequency: winter 6; kill 8; 1979 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Antarctica: IMAX (1991)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/81.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 3738Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Frogmen (1951)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/82.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 6731Bytes
+Keyword frequency: the 18; frogmen 6; 1951 5; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Silkwood (1983)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/83.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 7241Bytes
+Keyword frequency: silkwood 6; 1983 5; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Powerpuff Girls Movie (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/84.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 8532Bytes
+Keyword frequency: the 36; powerpuff 10; girl 10; 2002 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Elfen Lied (2005)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/85.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 3668Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Iron Monkey 2 (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/86.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 3631Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Louder Than Bombs (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/87.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 5523Bytes
+Keyword frequency: glosniej 4; od 5; bomb 5; 2002 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Record of Lodoss War: Chronicles of the Heroic Knight (1998)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/88.html
+Last modification date: Tue, 16 May 2023 05:03:42 GMT | Size of Page: 9657Bytes
+Keyword frequency: `` 7; lodoss 15; senki 6; eiyuu 4; kishi 4; den 4; '' 17; 1998 4; now 2; playingmovie/tv 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Chain of Command (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/89.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 7134Bytes
+Keyword frequency: chain 5; command 5; 2000 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Lemon Drop Kid (1951)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/90.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 4072Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: WWE: Royal Rumble 2005 (2005)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/91.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 3169Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: ECW: Cyberslam '99 (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/92.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 4530Bytes
+Keyword frequency: ecw 5; cyberslam 4; '99 4; 2002 5; v 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: They Came Back (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/93.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 3504Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: G3: Live in Concert (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/94.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 5093Bytes
+Keyword frequency: g3 4; live 6; concert 7; 1996 4; v 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Dona Herlinda and Her Son (1985)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/95.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 5579Bytes
+Keyword frequency: doña 5; herlinda 6; su 4; hijo 4; 1985 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Inside the Space Station (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/96.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 4846Bytes
+Keyword frequency: insid 4; space 6; station 6; 2000 5; tv 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Mostly Martha (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/97.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 2840Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Battle of Algiers: Bonus Material (1965)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/98.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 2832Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: A Fishy Story (1989)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/99.html
+Last modification date: Tue, 16 May 2023 05:03:44 GMT | Size of Page: 3271Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sam the Iron Bridge (1993)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/100.html
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 4110Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Complete Shamanic Princess (1997)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/101.html
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 3166Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Notre Musique (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/102.html
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 10796Bytes
+Keyword frequency: notr 9; musiqu 10; 2004 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sanford and Son: Season 6 (1976)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/103.html
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 3771Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Great Race (1965)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/104.html
+Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 3678Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Obsessed (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/105.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 3535Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Stevie Ray Vaughan and Double Trouble: Live at Montreux 1982 and 1985 (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/106.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 5754Bytes
+Keyword frequency: stevi 8; ray 8; vaughan 6; doubl 7; troubl 7; live 5; montreux 7; 1982 4; 1985 4; 2004 5
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Magnolia: Bonus Material (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/107.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 2513Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Spartan (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/108.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 7939Bytes
+Keyword frequency: spartan 3; 2004 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: No Way Back (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/109.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 3379Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Scandal (1989)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/110.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 7950Bytes
+Keyword frequency: scandal 3; 1989 6; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Duplex (Widescreen) (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/111.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 2478Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Eye of Vichy (1993)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/112.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 7500Bytes
+Keyword frequency: oeil 4; de 10; vichi 4; l 4; 1993 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Bruce Lee: A Warrior's Journey (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/113.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 6989Bytes
+Keyword frequency: bruce 8; lee 11; a 7; warrior 5; 's 8; journey 6; 2000 4; v 4; now 2; playingmovie/tv 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Dominion Tank Police Part 1 and 2 (1989)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/114.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 2792Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Lord Peter Wimsey: Murder Must Advertise (1973)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/115.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 8368Bytes
+Keyword frequency: `` 9; murder 7; must 7; advertis 10; '' 19; 1973 4; mini 5; now 2; playingmovie/tv 1; newsmi 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Bear Cub (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/116.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 3868Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Silk Stockings (1957)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/117.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 6617Bytes
+Keyword frequency: silk 4; stock 4; 1957 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Rambo: First Blood Part II (1985)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/118.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 8604Bytes
+Keyword frequency: rambo 12; first 11; blood 8; part 5; ii 5; 1985 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Travel the World by Train: Africa (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/119.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 3953Bytes
+Keyword frequency: travel 6; world 6; train 6; africa 4; 1999 6; v 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Plain Dirty (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/120.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 7025Bytes
+Keyword frequency: briar 4; patch 4; 2003 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Beyonce: Live at Wembley (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/121.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 3880Bytes
+Keyword frequency: beyoncé 3; live 4; wembley 4; documentari 4; 2004 4; v 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Cube 2: Hypercube (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/122.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 7862Bytes
+Keyword frequency: cube 11; 2 5; hypercub 12; 2002 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
 Page Title: Chain of Fools (2000)
-URL: 
-Last modification date: 2023-05-16 05:03:18 | Size of Page: 7193Bytes
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/123.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 7193Bytes
 Keyword frequency: chain 7; fool 8; 2000 5; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: What the #$*! Do We Know!? (2004)
-URL: 
-Last modification date: 2023-05-16 05:03:42 | Size of Page: 4147Bytes
+Page Title: Cold Blooded (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/124.html
+Last modification date: Tue, 16 May 2023 05:03:18 GMT | Size of Page: 3766Bytes
 Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: The Three Stooges: Sing a Song of Six Pants (1947)
-URL: 
-Last modification date: 2023-05-16 05:03:26 | Size of Page: 4101Bytes
+Page Title: Nighthawks (1981)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/125.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 7979Bytes
+Keyword frequency: nighthawk 4; 1981 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Vampire Effect (aka Twins Effect) (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/126.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 3084Bytes
 Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: Sleepover Nightmare (2005)
-URL: 
-Last modification date: 2023-05-16 05:03:22 | Size of Page: 5969Bytes
-Keyword frequency: sleepov 4; nightmar 5; 2005 5; v 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Page Title: Fatal Beauty (1987)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/127.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 6802Bytes
+Keyword frequency: fatal 4; beauti 4; 1987 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: Unsolved Mysteries: Psychics (1987)
-URL: 
-Last modification date: 2023-05-16 05:03:28 | Size of Page: 3104Bytes
+Page Title: Mr. Vampire (1985)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/128.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 3977Bytes
 Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: Winston Churchill: The Wilderness Years (1983)
-URL: 
-Last modification date: 2023-05-16 05:03:28 | Size of Page: 10591Bytes
-Keyword frequency: `` 4; winston 11; churchil 19; the 27; wilder 4; year 4; '' 8; 1981 4; mini 4; now 2
+Page Title: Darkwolf (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/129.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 3300Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: Westender (2003)
-URL: 
-Last modification date: 2023-05-16 05:03:32 | Size of Page: 6053Bytes
-Keyword frequency: westend 4; 2003 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Page Title: Drowning on Dry Land (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/130.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 5484Bytes
+Keyword frequency: drown 4; dri 4; land 4; 1999 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
-Page Title: 8 Man (1992)
-URL: 
-Last modification date: 2023-05-16 05:03:40 | Size of Page: 3498Bytes
+Page Title: Arachnid (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/131.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 7156Bytes
+Keyword frequency: arachnid 4; 2001 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Lucio Fulci: The Beyond (1981)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/132.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 3905Bytes
 Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
 Page Title: Viva La Bam: Season 1 (2003)
-URL: 
-Last modification date: 2023-05-16 05:03:20 | Size of Page: 7109Bytes
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/133.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 7109Bytes
 Keyword frequency: `` 3; viva 6; la 7; bam 14; '' 9; 2003 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------
+Page Title: Spirit Lost (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/134.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 5370Bytes
+Keyword frequency: spirit 4; lost 4; 1996 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: GTO: Great Teacher Onizuka: Set 2 (1998)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/135.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 2706Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Cat and the Canary (1927)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/136.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 3394Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Naked Lies (1998)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/137.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 5926Bytes
+Keyword frequency: nake 5; lie 5; 1998 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Star Trek: Voyager: Season 1 (1995)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/138.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 4116Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Allergies: A Natural Approach (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/139.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 2548Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Lost in the Wild (1993)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/140.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 3997Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Goddess of Mercy (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/141.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 4112Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Tricky Master (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/142.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 6415Bytes
+Keyword frequency: chin 5; wong 11; ji 4; 2000 5; 1999 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Game (1997)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/143.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 3283Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Deepak Chopra: The Way of the Wizard and Alchemy (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/144.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 2693Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Get Out Your Handkerchiefs (1978)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/145.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 6485Bytes
+Keyword frequency: préparez 4; vo 4; mouchoir 4; 1978 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Cannibal Women in the Avocado Jungle of Death (1988)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/146.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 6918Bytes
+Keyword frequency: cannib 4; women 9; avocado 11; jungl 9; death 5; 1989 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Where Sleeping Dogs Lie (1992)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/147.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 5656Bytes
+Keyword frequency: where 4; sleep 4; dog 4; lie 5; 1992 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sweet November (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/148.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 8272Bytes
+Keyword frequency: sweet 4; novemb 5; 2001 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Edward R. Murrow Collection (2005)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/149.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 4092Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Firetrap (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/150.html
+Last modification date: Tue, 16 May 2023 05:03:20 GMT | Size of Page: 6335Bytes
+Keyword frequency: firetrap 3; 2001 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sleepover Nightmare (2005)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/151.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 5969Bytes
+Keyword frequency: sleepov 4; nightmar 5; 2005 5; v 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: A Little Princess (1995)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/152.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 3982Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: MTV Yoga (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/153.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 3576Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Demon Warrior Koji (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/154.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 4114Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Strongest Man in the World (1975)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/155.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 3882Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Husbands and Wives (1992)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/156.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 7467Bytes
+Keyword frequency: husband 4; wive 4; 1992 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Laird: White Knuckle Extreme (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/157.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 2675Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: A Killer Within (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/158.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 8029Bytes
+Keyword frequency: a 8; killer 5; within 4; 2004 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Gentlemen of Fortune (1971)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/159.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 7526Bytes
+Keyword frequency: gentlemeni 4; udachi 4; 1972 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Gormenghast (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/160.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 6564Bytes
+Keyword frequency: `` 2; gormenghast 6; '' 6; 2000 7; mini 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Ninotchka (1939)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/161.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 7099Bytes
+Keyword frequency: ninotchka 6; 1939 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: John Cleese on How to Irritate People (1968)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/162.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 6997Bytes
+Keyword frequency: how 8; irrit 11; peopl 8; 1968 5; tv 8; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: MTV: Making the Band 2: Best of Season 1 (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/163.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 4086Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: One Last Dance (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/164.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 6148Bytes
+Keyword frequency: one 4; last 5; danc 9; 2003 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Richard Pryor: Live on the Sunset Strip (1982)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/165.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 6062Bytes
+Keyword frequency: richard 9; pryor 13; live 7; sunset 5; strip 5; 1982 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Fame (1980)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/166.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 8511Bytes
+Keyword frequency: fame 9; 1980 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Chorus (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/167.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 4135Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Smokey and the Bandit Part 3 (1983)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/168.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 9575Bytes
+Keyword frequency: smokey 9; bandit 15; part 4; 3 4; 1983 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Cartoon Network Halloween: 9 Creepy Cartoon Capers (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/169.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 2695Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Tomorrow (1972)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/170.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 5980Bytes
+Keyword frequency: tomorrow 3; 1972 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Funny Face (1957)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/171.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 7988Bytes
+Keyword frequency: funni 5; face 6; 1957 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Jack (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/172.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 3066Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Devil's Brigade (1968)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/173.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 6984Bytes
+Keyword frequency: the 17; devil 8; 's 11; brigad 8; 1968 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Adam-12: Season 1 (1968)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/174.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 3601Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Reservoir Dogs (1992)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/175.html
+Last modification date: Tue, 16 May 2023 05:03:22 GMT | Size of Page: 11108Bytes
+Keyword frequency: reservoir 5; dog 5; 1992 5; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The History Channel Presents: Troy: Unearthing the Legend (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/176.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 2830Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Pressure (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/177.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 5923Bytes
+Keyword frequency: pressur 5; 2002 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Regular Guys (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/178.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 5971Bytes
+Keyword frequency: echt 4; kerl 4; 1996 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Bollywood Bound (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/179.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 4620Bytes
+Keyword frequency: bollywood 4; bound 4; 2001 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Scratch (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/180.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 4099Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Last Shot (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/181.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 3414Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Moby: Play (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/182.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 4803Bytes
+Keyword frequency: mobi 6; play 7; the 9; dvd 5; 2001 4; v 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: IFilm: Deranged (2005)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/183.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 3862Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Billy Blanks: Tae Bo: Cardio Circuit 1 (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/184.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 2611Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
 Page Title: Missing in Action 2: The Beginning / Missing in Action 3: Braddock (1985)
-URL: 
-Last modification date: 2023-05-16 05:03:24 | Size of Page: 6805Bytes
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/185.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 6805Bytes
 Keyword frequency: miss 8; action 8; 2 4; the 12; begin 4; 1985 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Panic in the Streets (1950)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/186.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 6793Bytes
+Keyword frequency: panic 4; street 4; 1950 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Death to Smoochy (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/187.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 8366Bytes
+Keyword frequency: death 4; smoochi 6; 2002 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Dead Birds (2005)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/188.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 3975Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Airplane II: The Sequel (1982)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/189.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 7714Bytes
+Keyword frequency: airplan 10; ii 6; the 20; sequel 7; 1982 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Blood and Sand (1989)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/190.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 3682Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: X2: X-Men United (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/191.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 8773Bytes
+Keyword frequency: x2 4; 2003 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The SoulTaker (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/192.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 5077Bytes
+Keyword frequency: `` 2; the 9; soultak 6; '' 12; 2001 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Marilyn Manson: Fear of a Satanic Planet (2005)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/193.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 2625Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Arliss: The Best of Arliss (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/194.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 3792Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Chasing Freedom (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/195.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 8378Bytes
+Keyword frequency: chase 4; freedom 8; 2004 5; tv 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Peter Tosh: Stepping Razor: Red X (1992)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/196.html
+Last modification date: Tue, 16 May 2023 05:03:24 GMT | Size of Page: 2638Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Taking Lives (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/197.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 8754Bytes
+Keyword frequency: take 7; live 6; 2004 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Gupt (1997)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/198.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 6856Bytes
+Keyword frequency: gupt 4; the 15; hidden 5; truth 5; 1997 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Deer Hunter (1978)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/199.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 3896Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Fall of the Roman Empire (1964)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/200.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 7062Bytes
+Keyword frequency: the 23; fall 6; roman 8; empir 9; 1964 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Home Movie (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/201.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 6102Bytes
+Keyword frequency: home 6; movi 12; 2001 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Ruby's Bucket of Blood (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/202.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 6495Bytes
+Keyword frequency: rubi 6; 's 8; bucket 4; blood 4; 2001 5; tv 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sports Illustrated Swimsuit Edition: 1997 (1997)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/203.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 3412Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Venus Boyz (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/204.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 5782Bytes
+Keyword frequency: venu 4; boyz 4; 2002 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Troy: Bonus Material (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/205.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 2668Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Unconstitutional: The War on Our Civil Liberties (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/206.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 7114Bytes
+Keyword frequency: unconstitut 4; 2004 5; v 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Denise Austin: Ultimate Fat Burner (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/207.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 2583Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Three Stooges: Sing a Song of Six Pants (1947)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/208.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 4101Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Star Trek: Deep Space Nine: Season 5 (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/209.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 3068Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Onmyoji (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/210.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 6765Bytes
+Keyword frequency: onmyoji 5; 2001 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Agronomist (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/211.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 6972Bytes
+Keyword frequency: the 22; agronomist 6; 2003 4; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Querelle (1982)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/212.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 6508Bytes
+Keyword frequency: querel 6; 1982 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Dinner Rush (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/213.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 7801Bytes
+Keyword frequency: dinner 5; rush 5; 2000 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Read-Along: Beauty and the Beast (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/214.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 4007Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: That '70s Show: Season 1 (1998)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/215.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 3705Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Impostor (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/216.html
+Last modification date: Tue, 16 May 2023 05:03:26 GMT | Size of Page: 3522Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Cherry 2000 (1988)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/217.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 6819Bytes
+Keyword frequency: cherri 7; 2000 7; 1987 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Triumph: Live at the US Festival (1983)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/218.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 3746Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Neon Bible (1995)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/219.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 6911Bytes
+Keyword frequency: the 17; neon 5; bibl 5; 1995 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Winston Churchill: The Wilderness Years (1983)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/220.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 10591Bytes
+Keyword frequency: `` 4; winston 11; churchil 19; the 27; wilder 4; year 4; '' 8; 1981 4; mini 4; now 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Voyage to the Planets and Beyond (2005)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/221.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 3071Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Yellow (1998)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/222.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 7377Bytes
+Keyword frequency: yellow 5; 1998 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Chappelle's Show: Season 1 (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/223.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 7877Bytes
+Keyword frequency: `` 5; chappel 15; 's 14; show 8; '' 15; 2003 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Midsomer Murders: Blood Will Out (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/224.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 2569Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Cookout (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/225.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 3605Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Henry: Portrait of a Serial Killer 2 (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/226.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 3516Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Carol Burnett Show: Show Stoppers (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/227.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 3114Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Butch and Sundance: The Early Days (1979)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/228.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 6256Bytes
+Keyword frequency: butch 7; sundanc 7; the 15; earli 4; day 4; 1979 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Peter Gabriel: Growing Up Live (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/229.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 2880Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Unsolved Mysteries: Psychics (1987)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/230.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 3104Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Marooned in Iraq (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/231.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 6311Bytes
+Keyword frequency: gomgashtei 4; dar 4; aragh 4; 2002 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Gross Anatomy (1989)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/232.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 6767Bytes
+Keyword frequency: gross 5; anatomi 5; 1989 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Chato's Land (1971)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/233.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 11167Bytes
+Keyword frequency: chato 9; 's 27; land 10; 1972 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Animation Legend: Winsor McCay (1921)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/234.html
+Last modification date: Tue, 16 May 2023 05:03:28 GMT | Size of Page: 3888Bytes
+Keyword frequency: winsor 6; mccay 4; anim 4; legend 4; 1921 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Unhook the Stars (1996)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/235.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 7025Bytes
+Keyword frequency: unhook 4; star 6; 1996 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Cartoon Crazys Sci-Fi (1998)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/236.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 2492Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Broken Blossoms (1918)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/237.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 3769Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Led Zeppelin: The Song Remains the Same (1976)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/238.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 9335Bytes
+Keyword frequency: the 31; song 10; remain 7; same 7; 1976 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Winnie the Pooh: Springtime with Roo (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/239.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 6829Bytes
+Keyword frequency: winni 10; pooh 11; springtim 4; roo 8; 2004 5; v 5; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Woman of the Year (1942)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/240.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 7342Bytes
+Keyword frequency: woman 4; year 4; 1942 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: North by Northwest (1959)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/241.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 9712Bytes
+Keyword frequency: north 8; northwest 8; 1959 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Neon Genesis Evangelion: The End of Evangelion (1995)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/242.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 8900Bytes
+Keyword frequency: shin 6; seiki 7; evangelion 11; gekijô-ban 4; air/magokoro 4; wo 4; kimi 4; ni 4; 1997 4; now 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Pressure Point (1962)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/243.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 5973Bytes
+Keyword frequency: pressur 4; point 4; 1962 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Stellvia (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/244.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 5667Bytes
+Keyword frequency: `` 3; stellvia 8; '' 15; 2003 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Road Dogz (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/245.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 6649Bytes
+Keyword frequency: road 4; dogz 4; 2000 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Boston Strangler (1968)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/246.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 3904Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Oleanna (1994)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/247.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 7915Bytes
+Keyword frequency: oleanna 3; 1994 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Michael Moore's The Awful Truth: Season 2 (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/248.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 2696Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Hunters (1958)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/249.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 6093Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Cast a Giant Shadow (1966)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/250.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 7615Bytes
+Keyword frequency: cast 13; giant 9; shadow 9; 1966 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Midsomer Murders: Strangler's Wood (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/251.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 2583Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Stuart Little 2 (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/252.html
+Last modification date: Tue, 16 May 2023 05:03:30 GMT | Size of Page: 8171Bytes
+Keyword frequency: stuart 14; littl 19; 2 7; 2002 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: A Night at the Opera (1935)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/253.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 4111Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Westender (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/254.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 6053Bytes
+Keyword frequency: westend 4; 2003 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Hunchback of Notre Dame II (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/255.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 6973Bytes
+Keyword frequency: the 19; hunchback 7; notr 6; dame 5; ii 6; 2002 5; v 4; now 4; playingmovie/tv 1; newsmi 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Ghost Dog: The Way of the Samurai (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/256.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 10489Bytes
+Keyword frequency: ghost 13; dog 13; the 38; way 5; samurai 12; 1999 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Charlotte's Web (1973)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/257.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 7637Bytes
+Keyword frequency: charlott 11; 's 15; web 7; 1973 5; now 3; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Mann (1999)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/258.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 6687Bytes
+Keyword frequency: mann 5; 1999 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Animal (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/259.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 4576Bytes
+Keyword frequency: anim 3; 2004 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Marat / Sade (1967)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/260.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 6756Bytes
+Keyword frequency: marat/sad 3; 1967 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Big Clock (1948)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/261.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 6735Bytes
+Keyword frequency: the 13; big 6; clock 6; 1948 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Herbie Rides Again (1974)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/262.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 7169Bytes
+Keyword frequency: herbi 6; ride 4; again 4; 1974 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Dragon Ball: Tournament Saga (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/263.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 2685Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Angelina Ballerina: Lights (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/264.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 2629Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Jeff Corwin Experience: Costa Rica and the Amazon (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/265.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 2907Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Saudade Do Futuro (2000)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/266.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 4386Bytes
+Keyword frequency: saudad 5; futuro 5; 2000 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Touched by an Angel: Season 1 (1994)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/267.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 3937Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: The Final Countdown (1980)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/268.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 3837Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Parenthood (1989)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/269.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 7631Bytes
+Keyword frequency: parenthood 3; 1989 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sex and the City: Season 4 (2001)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/270.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 4186Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Saludos Amigos (1943)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/271.html
+Last modification date: Tue, 16 May 2023 05:03:32 GMT | Size of Page: 7115Bytes
+Keyword frequency: saludo 5; amigo 4; 1942 5; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Female Yakuza Tale (1973)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/272.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 6321Bytes
+Keyword frequency: yasagur 4; anego 6; den 6; sôkatsu 4; rinchi 4; 1973 6; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Taxi (2004)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/273.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 10708Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Crazy as Hell (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/274.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 6550Bytes
+Keyword frequency: crazi 4; hell 4; 2002 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Evelyn (2002)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/275.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 8940Bytes
+Keyword frequency: evelyn 10; 2002 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 2
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Cold Harvest (1998)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/276.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 5918Bytes
+Keyword frequency: cold 4; harvest 4; 1999 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Enigma: MCMXC A.D (2003)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/277.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 2464Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: 100 Days Before the Command (1990)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/278.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 5871Bytes
+Keyword frequency: sto 4; dney 5; prikaza 4; 1990 4; now 2; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Micki and Maude (1984)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/279.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 3691Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
+Child Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
+-------------------------------------------------------------------
+Page Title: Sarah Brightman: In Concert (1998)
+URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/280.html
+Last modification date: Tue, 16 May 2023 05:03:34 GMT | Size of Page: 3296Bytes
+Keyword frequency: imdb 3; titlesearchnow 1; playingmovie/tv 1; newsmi 1; moviesdvd/videoimdbtvmessag 1; boardsshowtim 1; ticketsimdbproimdb 1; resum 1; login 1; | 16
 Child Links: []
 Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 -------------------------------------------------------------------

@@ -136,12 +136,12 @@ class page:
             string: in the format of key1 freq1; key2 freq2; key3 freq3; ...
         """
         keyword_counts = self.keyword_counts
-        return '; '.join(f"{k} {v}" for k, v in list(keyword_counts)[:n])
+        return '; '.join(f"{k} {v}" for k, v in list(keyword_counts.items())[:n])
 
     def returnwordfreqlist(self,n):
         # return a list of keywords and values with length n
         word_list = self.keyword_counts
-        return list(word_list)[:n]
+        return list(word_list.items())[:n]
 
     def sortwordfreq(self):                                             # For later use
         keyword_counts = self.keyword_counts
@@ -449,6 +449,7 @@ class HTML_list:
         Args:
             filename (string): filename/filepath
             url (string): the url of the page you want to fetch 
+            page_ids (list): list of string of page_id of pages we want to display in the search result
 
         Returns:
             page_title ():
@@ -470,6 +471,7 @@ class HTML_list:
             c1.execute("SELECT * FROM content WHERE page_id=?", (page_id,))
             content = c1.fetchone()
             if content:
+                url = content[1]
                 page_title = content[2]
                 last_mod_date = content[3]
                 file_size = content[4]
@@ -483,10 +485,10 @@ class HTML_list:
                 temppage.title = page_title
                 temppage.last_mod_date = last_mod_date
                 temppage.file_size = file_size
-                temppage.keyword_counts = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
+                temppage.keyword_counts = dict(sorted(word_freq.items(), key=lambda x: x[1], reverse=True))
+                temppage.url = url
                 temppage.child_link = child_link
                 temppage.parent_link = parent_link
-                
                 HTML_list_object.HTML_list.append(temppage)
         connection.close()
 
