@@ -2,7 +2,7 @@ Page Title: Test page
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm
 Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 603Bytes
 Keyword frequency: thi 1; test 1; page 1; a 1; crawler 1; befor 1; get 1; the 1; admiss 1; cse 1
-Child Links: []
+Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/news.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm']
 Parent Links: []
 -------------------------------------------------------------------
 Page Title: CSE department of HKUST
@@ -10,7 +10,7 @@ URL: https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse.htm
 Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 392Bytes
 Keyword frequency: cse 1; depart 1; hkust 1; pg 1; admiss 2; ug 1; back 1; main 1
 Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse/PG.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse/UG.htm']
-Parent Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm']
 -------------------------------------------------------------------
 Page Title: PG
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/ust_cse/PG.htm
@@ -31,7 +31,7 @@ URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news.htm
 Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 384Bytes
 Keyword frequency: new 1; bbc 1; news 2; cnn 1; back 1; main 1
 Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/news/cnn.htm']
-Parent Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm']
 -------------------------------------------------------------------
 Page Title: BBC news
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/news/bbc.htm
@@ -87,7 +87,7 @@ URL: https://www.cse.ust.hk/~kwtleung/COMP4321/books.htm
 Last modification date: Tue, 16 May 2023 05:03:16 GMT | Size of Page: 601Bytes
 Keyword frequency: book 1; articl 1; read 1; autom 1; keyword 1; classif 1; inform 1; retriev 1; gener 1; use 1
 Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/books/book1.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/books/book2.htm', 'https://www.cse.ust.hk/~kwtleung/COMP4321/books/book3.htm']
-Parent Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm']
 -------------------------------------------------------------------
 Page Title: book1
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/books/book1.htm
@@ -115,7 +115,7 @@ URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie.htm
 Last modification date: Tue, 16 May 2023 05:09:22 GMT | Size of Page: 19541Bytes
 Keyword frequency: my 4; movi 4; list 1; back 4; main 2; dinosaur 1; planet 3; 2003 24; isl 1; man 3
 Child Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/1.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/2.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/3.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/4.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/5.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/6.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/7.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/8.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/9.html', 'https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/10.html']
-Parent Links: []
+Parent Links: ['https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm']
 -------------------------------------------------------------------
 Page Title: Dinosaur Planet (2003)
 URL: https://www.cse.ust.hk/~kwtleung/COMP4321/Movie/1.html

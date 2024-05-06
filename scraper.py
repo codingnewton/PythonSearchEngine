@@ -53,19 +53,40 @@ class page:
             # handling <a> tags and extract parent and children link
             link_tags = soup.find_all("a")
             links = [link.get('href') for link in link_tags]
+            #print(links[:10])
             full_links = [urljoin(response.url, link) for link in links]
+            #print(f"full links: {full_links[:10]}")
             self.link_queue = [full_link for full_link in full_links]
             url_cleaned = response.url.split(".htm")[0].strip()
 
             for link in full_links:
-                if link.startswith(url_cleaned):
-                    if len(self.child_link) <=10:
+                if response.url.startswith(link.split(".htm")[0].strip()) | self.hascrawled(link):
+                    if link not in self.parent_link:
+                        self.parent_link.append(link)
+                        full_links.remove(link)
+
+
+
+            for link in full_links:
+                if len(self.child_link) < 10:
+                    if link not in self.child_link:
                         self.child_link.append(link)
-                    else:
-                        pass
-                if response.url.startswith(link.split(".htm")[0].strip()):
-                    self.parent_link.append(link)
-    
+
+            self.crawled_url.add(url)
+
+                #if link.startswith(url_cleaned):
+                #    if len(self.child_link) <=10:
+                #        self.child_link.append(link)
+                #    else:
+                #        pass
+                #if response.url.startswith(link.split(".htm")[0].strip()):
+                #    self.parent_link.append(link)
+
+    def hascrawled(self, link) -> bool:
+        if link in self.crawled_url:
+            return True
+        else:
+            return False
 
     def __repr__(self) -> str:
         pagetitle = f"Page Title: {self.title}\n" 
@@ -163,14 +184,6 @@ class HTML_list:
     def __init__(self):
        self.HTML_list = [] # list of page for later sorting
         # Web graph for PageRanking
-
-    def create_web_graph(self):
-        web_graph = {}
-        for obj in self.HTML_list:
-            if obj.url not in web_graph:
-                web_graph[obj.url] = obj.child_link
-        
-        return web_graph
 
     def get_object_at(self, idx):
         try: 
