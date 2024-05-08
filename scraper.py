@@ -617,8 +617,10 @@ class HTML_list:
         Returns:
             dictionary: Similarity scores between the query and each document. dict_key is page_id (STRING), dict_values is a similarity score
         """    
+        vector_dim = len(next(iter(weighted_vector_bodies.values())))
+        
         if query_weights == None:
-            query_weights = np.ones(len(query))
+            query_weights = np.ones(vector_dim)
         query_vector = query_weights
     
         # Bodies
