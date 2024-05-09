@@ -121,6 +121,7 @@
         {% for result in search_results %}
             <div class="result">
                 <h2 class="result-title">{{ result.title }}</h2>
+                <p>Ranking score: {{ result.score }}</p>
                 <p class="result-description"><a href="{{ result.url }}">{{ result.url }}</a></p>
                 <p>Last Modification Date: {{result.last_mod_date}} | Size of Page: {{result.file_size}} Bytes</p>
                 <p>Keyword frequency: {{result.returnwordfreq(10)}}</p>

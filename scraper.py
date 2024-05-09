@@ -33,6 +33,7 @@ class page:
             self.stemmed = []
             self.keyword_counts = {} # wordfreq() has to be executed to store this
             self.page_title_kword = {}
+            self.score = 0
         else:
             response = requests.get(url)
             soup = BeautifulSoup(response.text, 'lxml')
@@ -42,6 +43,7 @@ class page:
             self.stemmed = []
             self.keyword_counts = {}
             self.page_title_kword = {}
+            self.score = 0
             
             # Extract title, url, last mod date and file size
             self.title = soup.find('title').text
