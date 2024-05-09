@@ -7,7 +7,7 @@ from nltk.tokenize import word_tokenize
 
 app = Flask(__name__)
 spider = HTML_list()
-FILENAME = "indexertest.db"
+FILENAME = "indexer.db"
 
 def calculate_pagerank(web_graph, damping_factor=0.85, max_iterations=100, epsilon=1e-8):
     num_pages = len(web_graph) + 1
