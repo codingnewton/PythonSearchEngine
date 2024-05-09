@@ -76,7 +76,7 @@ def search():
 
     #sort by similarity
     scores = spider.retrieve(FILENAME, query_refined)
-    _, HTML_list_object = spider.fileretrieve(FILENAME, page_ids=scores.keys())
+    _, HTML_list_object = spider.fileretrieve(FILENAME, page_ids=scores.keys(), scores = scores)
 
     # Page Rank the Spider.HTML
     #web_graph = spider.create_web_graph()

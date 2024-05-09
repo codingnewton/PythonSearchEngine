@@ -435,16 +435,18 @@ class HTML_list:
         connection.commit()
         connection.close()
 
-    def fileretrieve(self, filename, url = None, page_ids = None):
+    def fileretrieve(self, filename, url = None, page_ids = None, scores = None):
         """ Get the information of an url from the database from generating the pages
 
         Args:
             filename (string): filename/filepath
             url (string): the url of the page you want to fetch 
             page_ids (list): list of string of page_id of pages we want to display in the search result
+            scores (dict): the dictionary storing all the details of page_ids to display and the scores to display in the UI. (Actually same as page_ids)
 
         Returns:
-            page_title ():
+            result (dict): Dictionary of all the content we needed
+            HTML_list (HTML_list.HTML_list): The HTML_list object storing all the pages
         """
         connection = sqlite3.connect(filename)
         c1 = connection.cursor()
@@ -481,6 +483,7 @@ class HTML_list:
                 temppage.url = url
                 temppage.child_link = child_link
                 temppage.parent_link = parent_link
+                temppage.score = scores[page_id]
                 HTML_list_object.HTML_list.append(temppage)
         connection.close()
 
@@ -585,8 +588,10 @@ class HTML_list:
         Returns:
             dictionary: Similarity scores between the query and each document. dict_key is page_id (STRING), dict_values is a similarity score
         """    
+        vector_dim = len(next(iter(weighted_vector_bodies.values())))
+        
         if query_weights == None:
-            query_weights = np.ones(len(query))
+            query_weights = np.ones(vector_dim)
         query_vector = query_weights
     
         # Bodies
