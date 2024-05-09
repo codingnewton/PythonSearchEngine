@@ -64,23 +64,12 @@ class page:
                     if link not in self.parent_link:
                         self.parent_link.append(link)
                         full_links.remove(link)
-
-
-
             for link in full_links:
                 if len(self.child_link) < 10:
                     if link not in self.child_link:
                         self.child_link.append(link)
 
             self.crawled_url.add(url)
-
-                #if link.startswith(url_cleaned):
-                #    if len(self.child_link) <=10:
-                #        self.child_link.append(link)
-                #    else:
-                #        pass
-                #if response.url.startswith(link.split(".htm")[0].strip()):
-                #    self.parent_link.append(link)
 
     def hascrawled(self, link) -> bool:
         if link in self.crawled_url:
@@ -102,7 +91,6 @@ class page:
         sefdate = self.convertdate()
         otherdate = other.convertdate()
         return sefdate < otherdate
-
 
     def convertdate(self) -> datetime:
         str = self.last_mod_date
@@ -413,7 +401,6 @@ class HTML_list:
                     else:
                         Word_Freq_Bodies[word_id] = {page_id: freq}  # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a new page
                 else:  # If word does not exist in the database table "words"
-                    # print("debug: BODY, NOT-EXIST")
                     new_word_id = len(Word_Id) + 1  # Assign new_word_id to the new word introduced
                     New_Word_Id[word] = Word_Id[word] = new_word_id  # Create a new item for table "words"
                     Word_Freq_Bodies[new_word_id] = {page_id: freq}  # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a page
@@ -430,7 +417,6 @@ class HTML_list:
                     else:
                         Word_Freq_Titles[word_id] = {page_id: freq}  # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a new page
                 else:  # If word does not exist in the database table "words"
-                    # print("debug: BODY, NOT-EXIST")
                     new_word_id = len(Word_Id) + 1  # Assign new_word_id to the new word introduced
                     New_Word_Id[word] = Word_Id[word] = new_word_id  # Create a new item for table "words"
                     Word_Freq_Titles[new_word_id] = {page_id: freq}  # Create a new item for dictionary (Word_Freq_Bodies) to store the word frequency of a page        
@@ -446,15 +432,6 @@ class HTML_list:
                        (word_id, json.dumps(page_freq)))            
         connection.commit()
         connection.close()
-
-    def inverting(self, filename, url):
-        """For updating inverted index which pages has been existed in the databse
-
-        Args:
-            filename (_type_): _description_
-            url (_type_): _description_
-        """
-        pass
 
     def fileretrieve(self, filename, url = None, page_ids = None):
         """ Get the information of an url from the database from generating the pages
@@ -504,17 +481,6 @@ class HTML_list:
                 temppage.parent_link = parent_link
                 HTML_list_object.HTML_list.append(temppage)
         connection.close()
-
-        # for items in result.values():
-        #     for item in items:
-        #         page_title = item[0]
-        #         last_mod_date = item[1]
-        #         file_size = item[2]
-        #         word_freq = item[3]
-        #         child_link = item[4]
-        #         parent_link = item[5]
-        #         url = item[6]
-        #         self.HTML_list.append(page(page_title, last_mod_date, file_size, word_freq, child_link, parent_link))
 
         return result, HTML_list_object
         
@@ -606,7 +572,7 @@ class HTML_list:
         return weighted_vector_bodies, weighted_vector_titles
     
     def cossim(self, weighted_vector_bodies, weighted_vector_titles, query, query_weights=None):
-        """_summary_
+        """Calculating the cosine similarity between each page and the query. 
 
         Args:
             weight_vector_bodies (_dict_): key is page_id, value is weighted_vector (list of terms weighting)
@@ -674,40 +640,3 @@ class HTML_list:
         weighted_vector_bodies, weighted_vector_titles = self.vector_space(filename, postingslistbodies, postingslisttitles, query_word_ids)
         scores = self.cossim(weighted_vector_bodies, weighted_vector_titles, query, query_weights)
         return scores
-
-
-    def dbtest(self, filename, tablename):
-        """ Print out all items of a table from a .db file.
-
-        Args:
-            filename (string): filename/filepath
-            tablename (string): tablename
-        """
-        connection = sqlite3.connect(filename)
-        c1 = connection.cursor()
-        c1.execute(f"SELECT * FROM {tablename}")
-        words = c1.fetchall()
-        for word in words[:100]:
-            print(word)
-
-    def dbtemptest(self, filename, word_ids):
-        connection = sqlite3.connect(filename)
-        c1 = connection.cursor()
-        qs = "(" + ",".join("?" * len(word_ids)) + ")"
-        c1.execute(f'''SELECT page_freq FROM inverted_index WHERE word_id IN {qs}''', (word_ids))
-        page_freq = c1.fetchall()
-        return page_freq
-
-
-def testprogram():
-    spider = HTML_list()
-    spider.crawl("https://www.cse.ust.hk/~kwtleung/COMP4321/testpage.htm", 300)      # recursively crawl the pages
-
-    db_filename = 'indexer.db'          # Specify the name of the db file you have/ you will create
-    spider.createdb(db_filename)        # Create the .db file for storing pages newly fetched pages OR Clean an existing .db file to store newly fetched pages.
-    spider.dbforward(db_filename)       # Inserting data into table {urls, forward_index, content}
-    spider.dbinverted(db_filename)      # Calculate inverted index and insert data into table {words, inverted_index}
-
-    # spider.dbtest(db_filename, tablename = 'words')   # Retrieve and print contents of table "words" from db file
-
-    spider.export('return')             # Create spider-result.txt by mode = 'return' (mode='print' will print the results instead)

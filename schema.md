@@ -47,7 +47,6 @@ This document describes the design of the SQLite3 database schema for the indexe
 1. **createdb**: Create the .db file for storing pages newly fetched pages OR Clean an existing .db file to store newly fetched pages.
 2. **dbforward**: Inserts crawled data into the database for forward indexing.
 3. **dbinverted**: Calculates the inverted index and puts it into the database.
-4. **dbtest**: Retrieves the contents of the db file to display the data stored in the inverted_index table.
 
 ## Spider and Test Program
 
