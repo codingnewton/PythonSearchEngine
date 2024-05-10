@@ -26,7 +26,7 @@ Before running the program, we will need to run the commands below in the python
 
 1. Before running the program, please ensure this program folder is directly opened in your IDE. I.e., the origin of the relative path directory should be exactly this program file.
 2. After installing necessary libraries, run Python main.py on your IDE terminal to execute the program. 
-3. Check the python terminal, there will be a statement `* Running on https://_________`, open the link on your browser to start the search engine.
+3. Check the python terminal, there will be a statement `* Running on http://_________`, open the link on your browser to start the search engine.
 4. Input the query you wish to search and click search.
 
 ---

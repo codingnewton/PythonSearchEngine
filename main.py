@@ -45,7 +45,7 @@ def log_query(query):
 def stopstem(text): # stemming and stopword removal
     stemmer = PorterStemmer()
     words = word_tokenize(text)                                     # Tokenizing
-    punct = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
+    punct = r'''!()-[]{};:'"\, <>./?@#$%^&*_~'''
     stopwords = open('stopwords.txt').read().splitlines()
     for word in words:
         if word in punct:
