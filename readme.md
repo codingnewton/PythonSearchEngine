@@ -1,6 +1,6 @@
 # PythonSearchEngine -  Basic Python Search Engine
 
-This program is developed by Group 15 of COMP4321 for completing the project.
+This program is developed by Group 15 of COMP4321.
 This readme serves as a brief introduction and simple instruction to the set up of our search engine.
 
 ---
@@ -54,5 +54,5 @@ The search engine will undergo four stages at certain time of usage. Crawling th
 
 ---
 
-That's it, we hope you have a pleasant experience using our program.
+As three non computer science students developing this, we hope you have a pleasant experience using our program. 
 And please give us a better grading :joy:

@@ -511,6 +511,17 @@ class HTML_list:
         word_ids = c1.fetchall()
         qs = "(" + ",".join("?" * len(word_ids)) + ")"          # Refresh another (?,?,...) as there might be words that is not in the database. The count has to be changed.
 
+        # If word_ids do not exist in database
+        if word_ids == None:
+            c1.execute('''
+                       SELECT w.word_id, w.word, SUM(json_object_values(f.word_freq)) AS total_freq
+                        FROM forward_index f
+                        JOIN words w ON w.word_id = json_keys(f.word_freq)
+                        GROUP BY w.word_id
+                        ORDER BY total_freq DESC
+                        LIMIT 3;''')
+            word_ids = c1.fetchall()
+
         # Process the output word_id as it is in the format of tuple
         word_ids = tuple(word_id for inner_tuple in word_ids for word_id in inner_tuple)
 
@@ -588,7 +599,13 @@ class HTML_list:
         Returns:
             dictionary: Similarity scores between the query and each document. dict_key is page_id (STRING), dict_values is a similarity score
         """    
-        vector_dim = len(next(iter(weighted_vector_bodies.values())))
+        if not weighted_vector_bodies:
+            # If the weighted_vector_bodies is empty, use the length of the first weighted vector in weighted_vector_titles
+            # vector_dim = len(next(iter(weighted_vector_titles.values())))
+            return {0:0}
+        else:
+            # Otherwise, get the vector dimension from the first weighted vector in weighted_vector_bodies
+            vector_dim = len(next(iter(weighted_vector_bodies.values())))
         
         if query_weights == None:
             query_weights = np.ones(vector_dim)
@@ -620,6 +637,7 @@ class HTML_list:
             titles_scores[page_id] += similarity
         # For returning sorted dictionary
         titles_scores = {k: v for k, v in sorted(titles_scores.items(), key = lambda x: x[1], reverse = True)}
+        
         all_page_ids = set(bodies_scores.keys()) | set(titles_scores.keys())
         combined_scores = {}
         for page_id in all_page_ids:
