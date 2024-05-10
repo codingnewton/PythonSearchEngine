@@ -39,9 +39,10 @@ Before running the program, we will need to run the commands below in the python
 4. **`schema.md`** - Describes the relational database structure that is responsible for storing the search engine data.
 5. **`stopwords.txt`** - A text file containing stopwords for stopword removal during the indexing. 
 6. **`indexer.db`** (not included) - Only created when upon initiation of crawler. You may also have a predefined indexer.db store into the program. 
-7. **`query_log.txt`** (not included) - Queries record from your device.
+7. **`query_log.txt`** - Queries record from your device.
 8. **`readmeimages`** (folder) -  Images for `readme.md`
 9. **`readme.md`** - It is in markdown format for better illustration.
+10. **`.gitignore`** - For publishing.
 
 ---
 
