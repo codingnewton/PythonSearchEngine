@@ -51,7 +51,7 @@ def stopstem(text): # stemming and stopword removal
         if word in punct:
             words.remove(word)
             continue
-        elif word in stopwords:                                     # Stopword Removal
+        if word in stopwords:                                     # Stopword Removal
             words.remove(word)
             continue
     stemmed = [stemmer.stem(word) for word in words]

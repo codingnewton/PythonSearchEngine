@@ -114,17 +114,19 @@ class page:
     
     def stopstem(self, url, text): # stemming and stopword removal
         stemmer = PorterStemmer()
-        words = word_tokenize(text)                                     # Tokenizing
+        words = word_tokenize(text)  # Tokenizing
         punct = r'''!()-[]{};:'"\, <>./?@#$%^&*_~'''
-        stopwords = open('stopwords.txt').read().splitlines()
+        stopwords = set(open('stopwords.txt').read().splitlines())  # Convert to set for faster lookup
+
+        # Create a new list to store the stemmed and filtered words
+        stemmed_words = []
+
         for word in words:
-            if word in punct:
-                words.remove(word)
-            if word in stopwords:                                     # Stopword Removal
-                words.remove(word)
-        stemmed = [stemmer.stem(word) for word in words]
-        self.stemmed = stemmed
-        return stemmed
+            if word not in punct and word.lower() not in stopwords:  # Check if word is not a punctuation or stopword
+                stemmed_word = stemmer.stem(word.lower())  # Stem the word in lowercase
+                stemmed_words.append(stemmed_word)
+        self.stemmed = stemmed_words
+        return stemmed_words
     
     def wordfreq(self, stemmed, mode):
         keyword_counts = {}
@@ -657,3 +659,4 @@ class HTML_list:
         words = c1.fetchall()
         for word in words[:100]:
             print(word)
+
