@@ -1,11 +1,11 @@
 # Indexer Database Schema
 
-This document describes the design of the SQLite3 database schema for the indexer. It includes all supporting databases required for forward and inverted indexes, a table for pages content, as well as mapping tables for URL <=> page ID and word <=> word ID conversion.
+This document describes the design of the SQLite3 database schema for the indexer. It includes all supporting databases required for forward and inverted indexes, a table for pages content, as well as mapping tables for URL <=> page ID and word <=> word ID conversion. All the database operations were defined within the `HTML_list` class in the python file of `scraper.py`.
 
 ## Prerequisites
 
 - Make sure you have Python 3 installed on your system.
-- Install the required libraries by running the code in module.py at python terminal.
+- Install the required libraries by running the command mentioned in readme at python terminal.
 
 ## Database Tables
 
@@ -68,7 +68,7 @@ This document describes the design of the SQLite3 database schema for the indexe
 
 ## The Test Program
 
-1. Please refers to Python file (e.g., `test_program.py`) and paste the following code:
+1. You may paste the following code to an empty python file within this program to test the database:
 
   ```python
   from scraper import HTML_list
@@ -101,12 +101,6 @@ This document describes the design of the SQLite3 database schema for the indexe
       main()
   ```
 
-## Executing the Program
-
-1. Save all the files in the same directory.
-2. Run the `test_program.py` file.
-3. The search results will be saved in the `spider_result.txt` file.
-
 ## Execution
 
 The spider (test program) was executed according to the following steps.
@@ -119,3 +113,17 @@ The spider (test program) was executed according to the following steps.
 6. Export the crawl results to a text file by calling the `export('return')` function.
 
 **Note**: The `dbforward()`, `dbinverted()`, and `dbtest()` functions must be executed in the provided order for proper data manipulation.
+
+---
+
+## Indexing
+
+As the database structure and the functions were not defined with a class of itself, which enables us to embed more functionality within the class type we defined when handling database data. That includes calculation cosine similarity and extracting relevant pages based on users' queries input in the search engine.
+The functions are as follow:
+
+- `HTML_list.queryretrieve()` - Retrieve the inverted index of query terms from database file and output a 2D array ready for cosine similarity processing
+- `HTML_list.vector_space()` - Generate Vector Space for both pages' bodies and titles
+- `HTML_list.cossim()` - Calculating the cosine similarity between each page and the query
+- **`HTML_list.retrieve()`** - Calculating the similarity score of related pages and query based on cosine similarity and tf/idf. This is a function enclosing all the three functions mentioned above
+
+The function `HTML_list.retrieve()` will be utilized in the main.py for search engine.

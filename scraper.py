@@ -645,3 +645,17 @@ class HTML_list:
         weighted_vector_bodies, weighted_vector_titles = self.vector_space(filename, postingslistbodies, postingslisttitles, query_word_ids)
         scores = self.cossim(weighted_vector_bodies, weighted_vector_titles, query, query_weights)
         return scores
+
+    def dbtest(self, filename, tablename):
+        """Print out all items of a table from a .db file
+
+        Args:
+            filename (string): filename/filepath
+            tablename (string): tablename
+        """
+        connection = sqlite3.connect(filename)
+        c1 = connection.cursor()
+        c1.execute(f"SELECT * FROM {tablename}")
+        words = c1.fetchall()
+        for word in words[:100]:
+            print(word)
